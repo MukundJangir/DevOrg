@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>หน้า Facebook</value>
+    </caseValues>
+    <fields>
+        <label>ประเภท</label>
+        <name>Category__c</name>
+    </fields>
+    <fields>
+        <label>คำอธิบาย</label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label>เปิดใช้งานการสร้างเคสแบบอัตโนมัติ</label>
+        <name>Enable_Auto_Case_Creation__c</name>
+    </fields>
+    <fields>
+        <label>รูปภาพ</label>
+        <name>Facebook_Image__c</name>
+    </fields>
+    <fields>
+        <label>รหัสประจำผู้ใช้ Facebook</label>
+        <name>Fcbk_Id__c</name>
+    </fields>
+    <fields>
+        <label>รูป</label>
+        <name>Image__c</name>
+    </fields>
+    <fields>
+        <label>เวลาเริ่มต้นการค้นหาครั้งล่าสุด</label>
+        <name>Last_Time_Run__c</name>
+    </fields>
+    <fields>
+        <label>ชอบ</label>
+        <name>Likes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bring In Private Messages --></label>
+        <name>PM_Bring_In__c</name>
+    </fields>
+    <fields>
+        <help><!-- When enabled, any Post by this Facebook page containing #ch will be automatically posted to the Chatter Feed of the Facebook Page creator. Comments on this post in Chatter will not be sent to Facebook. --></help>
+        <label>เพิ่มโพสต์ที่มี #ch ไปยัง Chatter</label>
+        <name>Post_Hashtag_Chatter__c</name>
+    </fields>
+    <fields>
+        <label>ผลิตภัณฑ์</label>
+        <name>Products__c</name>
+    </fields>
+    <fields>
+        <label>เรียกใช้ตรรกะการเชื่อมโยงเคส</label>
+        <name>Run_Case_Association_Logic__c</name>
+    </fields>
+    <fields>
+        <label>รับโพสต์และความคิดเห็นตั้งแต่</label>
+        <name>Search_Lower_Limit_Time__c</name>
+    </fields>
+    <fields>
+        <label>รับโพสต์และความคิดเห็นจนถึง</label>
+        <name>Search_Upper_Limit_Time__c</name>
+    </fields>
+    <fields>
+        <label>ผู้ใช้ที่ไม่รู้จัก</label>
+        <name>Unknown_Users__c</name>
+        <picklistValues>
+            <masterLabel>Create Contact</masterLabel>
+            <translation><!-- Create Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Create Lead</masterLabel>
+            <translation><!-- Create Lead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Create Person Account</masterLabel>
+            <translation><!-- Create Person Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Do Nothing</masterLabel>
+            <translation><!-- Do Nothing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ตรวจสอบความถูกต้องแล้ว</label>
+        <name>Valid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Temp. Private Message Search Timestamp --></label>
+        <name>tmpPrivateMessageTimestamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Temp. Paging Token --></label>
+        <name>untilTimeStamp__c</name>
+    </fields>
+    <layouts>
+        <layout>FCBK Page Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Search Configuration --></label>
+            <section>Search Configuration</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>ชื่อ</nameFieldLabel>
+    <validationRules>
+        <errorMessage>หากต้องการเปิดใช้งานการสร้างเคส คุณต้องเปิดใช้งานการเชื่อมโยงเคสด้วย</errorMessage>
+        <name>Auto_Case_Association_Logic</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invalid Facebook Id --></errorMessage>
+        <name>Facebook_Id_not_empty</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>วันที่ของ รับโพสต์และความคิดเห็นจนถึง ควรมาหลังวันที่ของ รับโพสต์และความคิดเห็นตั้งแต่</errorMessage>
+        <name>until_date_greater_than_since</name>
+    </validationRules>
+    <webLinks>
+        <label>รับข้อมูลของหน้า</label>
+        <name>Get_Page_Info</name>
+    </webLinks>
+    <webLinks>
+        <label>เพิกถอนสิทธิ์ในการเข้าถึง Facebook</label>
+        <name>Revoke_Facebook_Access</name>
+    </webLinks>
+    <webLinks>
+        <label>กำหนดเวลาการค้นหาหน้า Facebook</label>
+        <name>Schedule_Facebook_Pages_Searches</name>
+    </webLinks>
+    <webLinks>
+        <label>ตรวจสอบความถูกต้อง</label>
+        <name>Validate</name>
+    </webLinks>
+</CustomObjectTranslation>

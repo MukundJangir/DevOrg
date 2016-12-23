@@ -1,0 +1,13 @@
+<apex:page standardController="Contact">
+    <apex:form >
+     
+      <script>
+          
+            var newUrl = window.location.protocol+'//'+window.location.hostname+'/003/e?retURL=%2F003%2Fo&con10=0032&nooverride=1';
+        
+         
+              window.location.assign(newUrl);
+      </script>
+     
+  </apex:form>
+</apex:page>

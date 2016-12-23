@@ -1,0 +1,20 @@
+<apex:page controller="clsHelpSalesStages" tabStyle="Opportunity" showHeader="false" sidebar="false">
+<apex:form >
+<apex:sectionHeader title="Sales Stages Description. Date: {!NOW()}"/>
+<apex:pageBlock title="">
+<apex:pageMessages ></apex:pageMessages>
+<apex:pageBlockTable value="{!SalesStages}" var="s" rendered="{!NOT(ISNULL(SalesStages))}">
+<apex:column >
+<apex:facet name="header">Name</apex:facet>
+<div style="background-color:{!CASE(s.ForecastCategoryName,'Closed','maroon','Omitted','#FFA07A','Commit','green','Funnel','blue','gray')}; 
+color:{!CASE(s.ForecastCategoryName,'Omitted','black','white')}">
+{!s.MasterLabel}
+</div>
+</apex:column>
+<apex:column value="{!s.DefaultProbability}"></apex:column>
+<apex:column value="{!s.Description}"></apex:column>
+<apex:column value="{!s.ForecastCategoryName}"></apex:column>
+</apex:pageBlockTable>
+</apex:pageBlock>
+</apex:form>
+</apex:page>

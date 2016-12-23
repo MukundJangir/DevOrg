@@ -1,0 +1,49 @@
+<apex:page controller="AutomobileController" showHeader="false">
+
+
+
+<apex:form >
+<apex:pageBlock >
+<apex:pageMessages />
+           <apex:pageBlockSection columns="2" title="User Details" collapsible="true">    
+           
+           
+               <apex:inputField label="First Name" value="{!contact.FirstName}" required="true"/> 
+               <apex:inputField label="Last Name" value="{!contact.LastName}"/> 
+               <apex:inputField label="Address1" value="{!contact.Address1__c}"/>
+               <apex:inputField label="Address2" value="{!contact.Address2__c}"/>
+               <apex:inputField label="State" value="{!contact.State__c}" required="true"/>
+               <apex:inputField label="City" value="{!contact.City__c}" required="true"/>
+               <apex:inputField label="Mobile Phone" value="{!contact.MobilePhone}"/>
+               <apex:inputField label="Phone" value="{!contact.Phone}"/>
+               <apex:inputField label="Email" value="{!contact.Email}" required="true"/>
+              <!--   <apex:inputField label="latitude" value="{!contact.Location__Latitude__s}"/>
+               <apex:inputField label="longitude" value="{!contact.Location__Longitude__s}"/>-->
+               
+           </apex:pageBlockSection>
+            <apex:pageBlockSection columns="2" title="Vechile Details" collapsible="true" rendered="{!isDealer}">
+           <apex:inputField label="Maker" value="{!vehicle.Maker__c}"/>
+           <apex:inputField label="Model" value="{!vehicle.Model__c}"/>
+           <apex:inputField label="Varient" value="{!vehicle.Variant__c}"/>
+           <apex:inputField label="Date/Time" value="{!testDrive.Test_Drive_Date__c}"/>
+             </apex:pageBlockSection>
+           <apex:commandButton value="Find Dealer" action="{!findDealer}" rendered="{!(!isDealer)}"/>
+           
+           <apex:pageBlockSection columns="1" title="Delear Information" collapsible="false" rendered="{!isDealer}">
+               <apex:pageBlockTable value="{!dealerWrapperList}" var="dealerList" width="100%" >
+               
+               <apex:column headerValue=""> 
+               <apex:inputCheckbox style="font-weight:bold" value="{!dealerList.isChecked}" />
+               </apex:column>
+               <apex:column value="{!dealerList.dealer.Name}" headerValue="Dealer Name"/> 
+               <apex:column value="{!dealerList.dealer.BillingStreet}" headerValue="Dealer Address"/> 
+             	<apex:column value="{!dealerList.dealer.BillingCity}" headerValue="Dealer City"/> 
+             	<apex:column value="{!dealerList.dealer.BillingState}" headerValue="Dealer State"/> 
+             	<apex:column value="{!dealerList.distance}" headerValue="Distance from you current location in KM"/> 
+                                  
+               </apex:pageBlockTable>  
+               </apex:pageBlockSection>   
+           <apex:commandButton value="Submit Detail" action="{!submitDetail}" rendered="{!isDealer}"/>
+       </apex:pageBlock>
+</apex:form>
+</apex:page>

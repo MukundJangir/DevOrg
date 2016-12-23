@@ -1,0 +1,104 @@
+<apex:page sidebar="false">
+<style>
+p{
+    background-color: #FFFFFF;
+    width : 80%;
+    float: Center;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: justify; 
+    font-family: Helvetica,Arial;
+    font-size: 13px;
+    color: #64676F;
+    
+}
+.left{
+important!;
+ width : 70%;
+text-align:left;} 
+#wrap{
+background: #FFFFFF;
+    width : 70%;
+    float: Center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.steps{
+background-color: #FFFFFF;
+ float: center;
+ width :80%;
+ margin-top: 30px;
+ margin-right: auto;
+ margin-left: auto;
+ text-align: justify; 
+}
+#image{
+ margin-right: auto;
+ margin-left: auto;
+ width:50%;
+}
+
+</style>
+
+    <apex:pageblock >
+    <div id="wrap">
+    <div class="steps" style=" margin-top:0;">
+                <div id="image">                
+                  <a href="http://www.solcomla.com" target="_blank" >
+                    <img src="{!URLFOR($Resource.logosolcom)}" width="100%" />
+                  </a>
+                </div>
+            </div>
+        <apex:pageblocksection title="Introduction" columns="1" >
+            <p>
+            {! $Label.slabs_ac__Intro}
+            </p>
+            <div class="steps">
+                <img src="{!URLFOR($Resource.Slabs_ac__acomplete)}" width="100%"/>
+            </div>
+            <div class="steps">
+                <img src="{!URLFOR($Resource.Slabs_ac__accode)}" width="100%"/>
+            </div>
+        </apex:pageblocksection>
+        <apex:pageblocksection title="Custom Settings" columns="1" >
+            <p>
+                {! $Label.slabs_ac__Custom_Settings}
+                
+            </p>
+            <div class="steps">
+                <img src="{!URLFOR($Resource.Slabs_ac__Ac_Setting,'CustomS.PNG')}" width="100%"/>
+            </div>
+            <br/>
+            <p>
+                {! $Label.slabs_ac__Custom_Settings2}
+            
+            </p>
+            <div class="steps">
+                <img src="{!URLFOR($Resource.Slabs_ac__Ac_Setting,'CustomNew.PNG')}" width="100%"/>
+            </div>
+            <p>
+                {! $Label.slabs_ac__Custom_Settings3}
+            
+            </p>
+            <div class="steps">
+                <img src="{!URLFOR($Resource.Slabs_ac__Ac_Setting,'CustomSet.PNG')}" width="100%"/>
+            </div>
+        </apex:pageblocksection>
+    <apex:pageblocksection title="Usage" columns="1" >
+    <p class="left">
+    {! $Label.slabs_ac__Usage}
+    <br/><br/>
+    </p>
+    <p class="left">
+    {!$Label.slabs_ac__Usage2}</p>
+    <p class="left">
+    {!$Label.slabs_ac__Usage3}
+    </p>
+    <p class="left">
+    {!$Label.slabs_ac__Usage4}
+    </p>
+    </apex:pageblocksection>
+    </div>
+    </apex:pageblock>
+
+</apex:page>

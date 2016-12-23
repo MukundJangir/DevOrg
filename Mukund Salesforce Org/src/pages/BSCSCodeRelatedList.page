@@ -1,0 +1,21 @@
+<apex:page standardController="BSCS__c" extensions="BSCSExtention">
+  
+    <apex:form >
+        <apex:pageBlock >
+            
+                <apex:pageBlockTable width="100%" value="{!doxisList}" var="doxis">
+                    
+                    <apex:column headervalue="Name">
+                        <a href="/{!doxis.id}" target="_parent">{!doxis.Name}</a>
+                    </apex:column>
+                    <apex:column headervalue="Id" value="{!doxis.id}"/>
+                    
+                </apex:pageBlockTable>
+               
+            
+            </apex:pageBlock>
+        
+        
+     
+        </apex:form>
+</apex:page>

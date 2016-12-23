@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>AutoComplete Samples</description>
+    <icon>AutoComplete/Solcom_Labs_Logo_Small.png</icon>
+    <label>Samples</label>
+    <mobileReady>false</mobileReady>
+    <motif>Custom347: TV Widescreen</motif>
+    <page>AutoComplete_Samples</page>
+</CustomTab>

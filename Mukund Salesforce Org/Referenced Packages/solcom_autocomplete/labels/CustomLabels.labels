@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Custom_Settings</fullName>
+        <categories>Introduction,settings,solcom,slabs,autocomplete</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Custom Settings</shortDescription>
+        <value>We added some Custom Settings for the autocomplete component. In order to set these settings you must go to: Your Name &gt; Setup in the upper right corner, and then click Develop &gt; Custom Settings in the sidebar menu to display the Custom Settings. Here you will find &quot;Solcom AutoComplete Config&quot;and click &quot;Manage&quot;.</value>
+    </labels>
+    <labels>
+        <fullName>Custom_Settings2</fullName>
+        <categories>Introduction,settings,solcom,slabs,autocomplete</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Custom Settings2</shortDescription>
+        <value>Now, we can click the upper &quot;New&quot; button to set the default values, or click the second button to create values for specific profiles or users.</value>
+    </labels>
+    <labels>
+        <fullName>Custom_Settings3</fullName>
+        <categories>Introduction,settings,solcom,slabs,autocomplete</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Custom Settings3</shortDescription>
+        <value>&quot;InputDisable&quot; setting will disable the input field while the search is executed.
+&quot;Results Limit&quot; sets a limit of returned values.</value>
+    </labels>
+    <labels>
+        <fullName>Intro</fullName>
+        <categories>Introduction,intro,solcom,slabs,autocomplete</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Intro</shortDescription>
+        <value>Hi, the purpose of this component is to add autocomplete capabilities to any input field inside a Visual Force page,  this component will display a list of suggestions from which you can select  the  one that best matches your search.
+
+The component will attach this list to the input field and if the search term doesn&apos;t exists in your database,
+an option to create a new record will be shown.</value>
+    </labels>
+    <labels>
+        <fullName>NewRecord</fullName>
+        <categories>Label,Autocomplete,NewRecord</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>NewRecord</shortDescription>
+        <value>Agregar nuevo registro?</value>
+    </labels>
+    <labels>
+        <fullName>Samples</fullName>
+        <categories>Samples, Labels</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Samples</shortDescription>
+        <value>Samples</value>
+    </labels>
+    <labels>
+        <fullName>Samples_Contact</fullName>
+        <categories>Samples, Labels</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Samples Contact</shortDescription>
+        <value>Contact</value>
+    </labels>
+    <labels>
+        <fullName>Samples_Fields</fullName>
+        <categories>Samples, Labels</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Samples Fields</shortDescription>
+        <value>Sample Fields</value>
+    </labels>
+    <labels>
+        <fullName>Samples_Information</fullName>
+        <categories>Samples, Labels</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Samples Information</shortDescription>
+        <value>Information</value>
+    </labels>
+    <labels>
+        <fullName>Samples_Message</fullName>
+        <categories>Samples, Labels</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Samples Message</shortDescription>
+        <value>The fields below use the AutoComplete component for input suggestions, type something to see the results.</value>
+    </labels>
+    <labels>
+        <fullName>Usage</fullName>
+        <categories>Introduction,Usage,solcom,slabs,autocomplete</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Usage</shortDescription>
+        <value>Adding the component to a VisualForce page is very simple.
+You just need to add the &lt;Slabs_ac:autocomplete id=&quot;UNIQUEID&quot; object=&quot;OBJECTNAME__c&quot; FieldID=&quot;{!$Component.FIELDID}&quot;/&gt; 
+
+The component has the following attributes:</value>
+    </labels>
+    <labels>
+        <fullName>Usage2</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Usage2</shortDescription>
+        <value>The &quot;Object&quot; attribute receives the name of the object on which the search will be performed. Ex: Object=&quot;Account&quot;.</value>
+    </labels>
+    <labels>
+        <fullName>Usage3</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Usage3</shortDescription>
+        <value>The &quot;FieldID&quot; attribute receives the id of the input field to which we are adding the autocomplete functionality. Ex: FieldID=&quot;{! $Component.form1.field1}&quot;.</value>
+    </labels>
+    <labels>
+        <fullName>Usage4</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Usage4</shortDescription>
+        <value>The &quot;Id&quot; attribute defines a unique id for the autocomplete component. Please make sure the value provided in this attribute is unique.</value>
+    </labels>
+    <labels>
+        <fullName>searching</fullName>
+        <categories>Label,Autocomplete</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Searching</shortDescription>
+        <value>Buscando ...</value>
+    </labels>
+</CustomLabels>

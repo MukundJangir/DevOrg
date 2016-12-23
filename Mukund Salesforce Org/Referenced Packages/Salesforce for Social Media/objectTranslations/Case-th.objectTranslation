@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>รหัสประจำภายนอกของผู้เขียน</label>
+        <name>Author_External_Id__c</name>
+    </fields>
+    <fields>
+        <label>ชื่อผู้ใช้ของผู้เขียน</label>
+        <name>Twitter_Username__c</name>
+    </fields>
+    <fields>
+        <label>รหัสประจำภายนอกของการสนทนา</label>
+        <name>twitterId__c</name>
+    </fields>
+    <layouts>
+        <layout>SfSocial Case Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

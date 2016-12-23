@@ -1,0 +1,11 @@
+<apex:page standardController="Account" extensions="FormulaField" showHeader="false">
+ 
+ <apex:form >
+ <apex:pageBlock >
+ <b>Account Type Remuneration &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </b><apex:outputField label="Account Type Remuneration" value="{!acc.Account_Type_Remuneration__c}"/>
+
+ 
+ </apex:pageBlock>
+ 
+ </apex:form>
+</apex:page>

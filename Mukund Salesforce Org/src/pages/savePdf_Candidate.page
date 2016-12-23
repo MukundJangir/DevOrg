@@ -1,0 +1,13 @@
+<apex:page standardController="Candidate__c" extensions="savePdf">
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>PDF Page</h1>
+  
+  <!-- End Default Content REMOVE THIS -->
+  <apex:form >
+  
+  <apex:iframe src="{!pdfUrl}" scrolling="true" id="theIframe"/>
+  
+  
+ </apex:form>
+
+</apex:page>

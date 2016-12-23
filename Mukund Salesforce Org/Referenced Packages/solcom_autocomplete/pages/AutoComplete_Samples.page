@@ -1,0 +1,29 @@
+<apex:page controller="Slabs_ac.Samples_Controller" sidebar="false" tabStyle="Samples__tab">
+
+    <apex:sectionHeader title="AutoComplete" subtitle="{!$Label.slabs_ac__Samples}"/>
+    
+    <apex:form id="demo">
+    
+        <apex:pageBlock title="{!$Label.slabs_ac__Samples_Information}" id="pblock">
+            
+            <apex:pageMessage severity="Info" strength="3" detail="{!$Label.slabs_ac__Samples_Message}"></apex:pageMessage>
+        
+            <apex:pageBlockSection id="psection" title="{!$Label.slabs_ac__Samples_Fields}">
+                
+                <apex:inputField id="acc" value="{!DummyContact.AccountId}"/>
+                
+                <apex:pageBlockSectionItem id="csection">
+                    <apex:outputLabel for="contact" value="{!$Label.slabs_ac__Samples_Contact}"/>
+                    <apex:inputText id="contact" value="{!sDummyText}"/>
+                </apex:pageBlockSectionItem>
+
+                <c:autocomplete id="acacc" object="Account" FieldID="{!$Component.acc}"/>                
+                <c:autocomplete id="accontact" object="Contact" FieldID="{!$Component.csection.contact}"/>
+               
+            </apex:pageBlockSection>
+            
+        </apex:pageBlock>
+        
+    </apex:form>
+    
+</apex:page>

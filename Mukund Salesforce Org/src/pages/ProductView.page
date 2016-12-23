@@ -1,0 +1,7 @@
+<apex:page standardController="MProduct__c">
+<apex:form >
+<apex:image url="/servlet/servlet.FileDownload?file={!MProduct__c.Image__c}"/>
+
+</apex:form>  
+  
+</apex:page>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ผู้ใช้ Facebook</value>
+    </caseValues>
+    <fields>
+        <label>รูปภาพ</label>
+        <name>Facebook_Image__c</name>
+    </fields>
+    <fields>
+        <label>รหัสประจำผู้ใช้ Facebook</label>
+        <name>Fcbk_Id__c</name>
+    </fields>
+    <fields>
+        <label>รูป</label>
+        <name>Image__c</name>
+    </fields>
+    <fields>
+        <label>ตรวจสอบความถูกต้องแล้ว</label>
+        <name>Valid__c</name>
+    </fields>
+    <fields>
+        <label>เกี่ยวกับฉัน</label>
+        <name>about_me__c</name>
+    </fields>
+    <fields>
+        <label>วันเกิด</label>
+        <name>birthday__c</name>
+    </fields>
+    <fields>
+        <label>เมือง</label>
+        <name>city__c</name>
+    </fields>
+    <fields>
+        <label>ประเทศ</label>
+        <name>country__c</name>
+    </fields>
+    <fields>
+        <label>อีเมล</label>
+        <name>email__c</name>
+    </fields>
+    <fields>
+        <label>ชื่อจริง</label>
+        <name>first_name__c</name>
+    </fields>
+    <fields>
+        <label>นามสกุล</label>
+        <name>last_name__c</name>
+    </fields>
+    <fields>
+        <label>การเมือง</label>
+        <name>political__c</name>
+    </fields>
+    <fields>
+        <label>ศาสนา</label>
+        <name>religion__c</name>
+    </fields>
+    <fields>
+        <label>เพศ</label>
+        <name>sex__c</name>
+    </fields>
+    <fields>
+        <label>รัฐ/จังหวัด</label>
+        <name>state__c</name>
+    </fields>
+    <layouts>
+        <layout>FCBK User Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>ชื่อ</nameFieldLabel>
+    <webLinks>
+        <label>เพิกถอนสิทธิ์ในการเข้าถึง Facebook</label>
+        <name>Revoke_Facebook_Access</name>
+    </webLinks>
+    <webLinks>
+        <label>ให้สิทธิ์ในการเข้าถึง Facebook</label>
+        <name>Validate</name>
+    </webLinks>
+</CustomObjectTranslation>

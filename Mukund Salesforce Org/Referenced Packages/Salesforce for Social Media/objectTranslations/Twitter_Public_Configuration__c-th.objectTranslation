@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>การกำหนดค่าความเป็นสาธารณะของ Twitter</value>
+    </caseValues>
+    <fields>
+        <label>ไซต์ URL ของบทความ</label>
+        <name>Article_URL_Site__c</name>
+    </fields>
+    <fields>
+        <label>คีย์ของ Bitly</label>
+        <name>Bitly_Key__c</name>
+    </fields>
+    <fields>
+        <label>ชื่อผู้ใช้ Bitly</label>
+        <name>Bitly_Username__c</name>
+    </fields>
+    <fields>
+        <label><!-- Facebook App ID --></label>
+        <name>Facebook_App_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Facebook App Secret --></label>
+        <name>Facebook_App_Secret__c</name>
+    </fields>
+    <fields>
+        <label>URL ของไอคอน Facebook</label>
+        <name>Facebook_Icon_Url__c</name>
+    </fields>
+    <fields>
+        <label>ความคิดเห็นต่อหน้า</label>
+        <name>Fcbk_Comments_Per_Page__c</name>
+    </fields>
+    <fields>
+        <label>โพสต์ต่อหน้าความคิดเห็น</label>
+        <name>Fcbk_Posts_Per_Comment_Page__c</name>
+    </fields>
+    <fields>
+        <label>โพสต์ต่อหน้า</label>
+        <name>Fcbk_Posts_Per_Page__c</name>
+    </fields>
+    <fields>
+        <label>แอพพลิเคชัน Klout</label>
+        <name>Klout_Application__c</name>
+    </fields>
+    <fields>
+        <label>คีย์ของ Klout</label>
+        <name>Klout_Key__c</name>
+    </fields>
+    <fields>
+        <label>โลโก้คะแนนของ Klout</label>
+        <name>Klout_Score_logo__c</name>
+    </fields>
+    <fields>
+        <label>URL ของไอคอนชอบฉัน</label>
+        <name>Like_Me_Icon_Url__c</name>
+    </fields>
+    <fields>
+        <help><!-- Marks whether or not the application will create a new Account per each Contact --></help>
+        <label><!-- One Account per Contact --></label>
+        <name>OneAccountContact__c</name>
+    </fields>
+    <fields>
+        <label>ชื่อเซิร์ฟเวอร์</label>
+        <name>Server_Name__c</name>
+    </fields>
+    <fields>
+        <label>URL ของไอคอน Twitter</label>
+        <name>Twitter_Icon_Url__c</name>
+    </fields>
+</CustomObjectTranslation>

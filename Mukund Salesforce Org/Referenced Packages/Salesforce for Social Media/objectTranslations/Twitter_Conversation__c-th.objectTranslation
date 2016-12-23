@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>การสนทนา</value>
+    </caseValues>
+    <fields>
+        <label>บัญชี</label>
+        <name>Account__c</name>
+        <relationshipLabel>การสนทนา</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Attachments --></label>
+        <name>Attachments__c</name>
+    </fields>
+    <fields>
+        <label>รหัสประจำภายนอกของผู้เขียน</label>
+        <name>Author_External_Id__c</name>
+    </fields>
+    <fields>
+        <label>ชื่อผู้ใช้ของผู้เขียน</label>
+        <name>Author_Name__c</name>
+    </fields>
+    <fields>
+        <label>ชื่อเต็มของผู้เขียน</label>
+        <name>Author_Real_Name__c</name>
+    </fields>
+    <fields>
+        <label>URL ของผู้เขียน</label>
+        <name>Author_URL__c</name>
+    </fields>
+    <fields>
+        <label>ไอคอนการลิงก์เคส</label>
+        <name>Case_Created__c</name>
+    </fields>
+    <fields>
+        <label>เคส</label>
+        <name>Case__c</name>
+        <relationshipLabel>การสนทนา</relationshipLabel>
+    </fields>
+    <fields>
+        <label>โพสต์บน Chatter</label>
+        <name>Chatter_Post_Link__c</name>
+    </fields>
+    <fields>
+        <label>รหัสประจำโพสต์บน Chatter</label>
+        <name>Chatter_Post__c</name>
+    </fields>
+    <fields>
+        <label>ไอคอนของลิงก์ผู้ติดต่อ</label>
+        <name>Contact_Created__c</name>
+    </fields>
+    <fields>
+        <label>ผู้ติดต่อ</label>
+        <name>Contact__c</name>
+        <relationshipLabel>การสนทนา</relationshipLabel>
+    </fields>
+    <fields>
+        <label>เนื้อหา</label>
+        <name>Content__c</name>
+    </fields>
+    <fields>
+        <label>ข้อความส่วนตัว</label>
+        <name>Direct_Message__c</name>
+    </fields>
+    <fields>
+        <label>ชื่อการดาวน์โหลด</label>
+        <name>Download_Name__c</name>
+        <relationshipLabel>การสนทนา</relationshipLabel>
+    </fields>
+    <fields>
+        <label>หน้า Facebook</label>
+        <name>Facebook_Page__c</name>
+        <relationshipLabel>การสนทนา</relationshipLabel>
+    </fields>
+    <fields>
+        <label>จำนวนผู้ติดตาม</label>
+        <name>Follower_Count__c</name>
+    </fields>
+    <fields>
+        <label>จำนวนการติดตาม</label>
+        <name>Following_Count__c</name>
+    </fields>
+    <fields>
+        <label>พิกัดทางภูมิศาสตร์</label>
+        <name>Geo_Coordinates__c</name>
+    </fields>
+    <fields>
+        <label>ไอคอนอวตาร</label>
+        <name>Image__c</name>
+    </fields>
+    <fields>
+        <label>รหัสประจำภายนอกของการสนทนาที่ตอบกลับ</label>
+        <name>In_Reply_To_Status_Id__c</name>
+    </fields>
+    <fields>
+        <label>รหัสประจำภายนอกของผู้ใช้ที่ตอบกลับ</label>
+        <name>In_Reply_To_User_Id__c</name>
+    </fields>
+    <fields>
+        <label>เป็นข้อความส่วนตัว</label>
+        <name>IsDirectMessage__c</name>
+    </fields>
+    <fields>
+        <label>เปิดใช้งานภูมิศาสตร์แล้ว</label>
+        <name>Is_Geo_Enabled__c</name>
+    </fields>
+    <fields>
+        <label>หมายเลข Klout</label>
+        <name>Klout_Number__c</name>
+    </fields>
+    <fields>
+        <label>คะแนนของ Klout</label>
+        <name>Klout_Score__c</name>
+    </fields>
+    <fields>
+        <label>ไอคอนการลิงก์ลีด</label>
+        <name>Lead_Created__c</name>
+    </fields>
+    <fields>
+        <label>ลีด</label>
+        <name>Lead__c</name>
+        <relationshipLabel>การสนทนา</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ชอบ</label>
+        <name>Likes_Link__c</name>
+    </fields>
+    <fields>
+        <label>จำนวนคนที่ชอบ</label>
+        <name>Likes__c</name>
+    </fields>
+    <fields>
+        <label>ลิงก์</label>
+        <name>Link__c</name>
+    </fields>
+    <fields>
+        <label>ข้อความ</label>
+        <name>Message__c</name>
+    </fields>
+    <fields>
+        <label>ข้อความทวีตในเชิงลบ</label>
+        <name>Negative_Tweets__c</name>
+    </fields>
+    <fields>
+        <label>ข้อความทวีตที่เป็นกลาง</label>
+        <name>Neutral_Tweets__c</name>
+    </fields>
+    <fields>
+        <help><!-- Creates a new Case for this Conversation regardles of its relationship to other Conversations and Cases --></help>
+        <label>สร้างเคส</label>
+        <name>New_Case__c</name>
+    </fields>
+    <fields>
+        <label>วันที่จุดเริ่มต้น</label>
+        <name>Origin_Date__c</name>
+    </fields>
+    <fields>
+        <label>ที่มา</label>
+        <name>Origin_Icon__c</name>
+    </fields>
+    <fields>
+        <label>ค่าจุดเริ่มต้น</label>
+        <name>Origin__c</name>
+        <picklistValues>
+            <masterLabel>Facebook</masterLabel>
+            <translation><!-- Facebook --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Twitter</masterLabel>
+            <translation><!-- Twitter --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>การสนทนาพาเรนต์ (เลิกใช้แล้ว)</label>
+        <name>ParentConversation__c</name>
+        <relationshipLabel>การสนทนา (เลิกใช้แล้ว)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>พาเรนต์</label>
+        <name>Parent__c</name>
+        <relationshipLabel>การสนทนาชายด์</relationshipLabel>
+    </fields>
+    <fields>
+        <label>พิกัดของสถานที่</label>
+        <name>Place_Coordinates__c</name>
+    </fields>
+    <fields>
+        <label>สถานที่</label>
+        <name>Place__c</name>
+    </fields>
+    <fields>
+        <label>ข้อความทวีตในเชิงบวก</label>
+        <name>Positive_Tweets__c</name>
+    </fields>
+    <fields>
+        <label>วันที่เผยแพร่</label>
+        <name>Published_Date__c</name>
+    </fields>
+    <fields>
+        <label>สถานะที่ตอบกลับ</label>
+        <name>Replied_Status__c</name>
+    </fields>
+    <fields>
+        <label>ผู้ใช้ที่ตอบกลับ</label>
+        <name>Replied_User__c</name>
+    </fields>
+    <fields>
+        <label>ไอคอนการลิงก์โซลูชัน</label>
+        <name>Solution_Created__c</name>
+    </fields>
+    <fields>
+        <label>โซลูชัน</label>
+        <name>Solution__c</name>
+        <relationshipLabel>การสนทนา</relationshipLabel>
+    </fields>
+    <fields>
+        <label>สถานะ</label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Actioned</masterLabel>
+            <translation><!-- Actioned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deleted</masterLabel>
+            <translation><!-- Deleted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ignored</masterLabel>
+            <translation><!-- Ignored --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mark as reviewed</masterLabel>
+            <translation><!-- Mark as reviewed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outbound @reply</masterLabel>
+            <translation><!-- Outbound @reply --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outbound Direct Message</masterLabel>
+            <translation><!-- Outbound Direct Message --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solved by Community</masterLabel>
+            <translation><!-- Solved by Community --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ThreadPMId --></label>
+        <name>ThreadPMId__c</name>
+    </fields>
+    <fields>
+        <label>ทัศนคติของการสนทนา</label>
+        <name>Tweet_Sentiment__c</name>
+    </fields>
+    <fields>
+        <label>รหัสประจำสำหรับผู้ใช้ภายนอก</label>
+        <name>TwitterID__c</name>
+    </fields>
+    <fields>
+        <label>บัญชีผู้ใช้ Twitter</label>
+        <name>Twitter_Account__c</name>
+        <relationshipLabel>การสนทนา</relationshipLabel>
+    </fields>
+    <fields>
+        <label>หมายเลขรหัสประจำ Twitter</label>
+        <name>Twitter_Id_Number__c</name>
+    </fields>
+    <fields>
+        <label>รูปภาพประจำโปรไฟล์</label>
+        <name>Twitter_Image__c</name>
+    </fields>
+    <fields>
+        <label>สถานที่</label>
+        <name>Twitter_Location__c</name>
+    </fields>
+    <fields>
+        <label>การค้นหาใน Twitter</label>
+        <name>Twitter_Search__c</name>
+        <relationshipLabel>การสนทนา</relationshipLabel>
+    </fields>
+    <fields>
+        <label>แหล่งของ Twitter</label>
+        <name>Twitter_Source__c</name>
+    </fields>
+    <fields>
+        <help><!-- The API source of the record.  This can be @Replies, Messages, or Search --></help>
+        <label>ชนิด</label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>@Replies</masterLabel>
+            <translation><!-- @Replies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comment</masterLabel>
+            <translation><!-- Comment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conversation</masterLabel>
+            <translation><!-- Conversation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Message</masterLabel>
+            <translation><!-- Direct Message --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outbound Direct Message</masterLabel>
+            <translation><!-- Outbound Direct Message --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outbound Private Message</masterLabel>
+            <translation><!-- Outbound Private Message --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outbound comment</masterLabel>
+            <translation><!-- Outbound comment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outbound post</masterLabel>
+            <translation><!-- Outbound post --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outbound reply</masterLabel>
+            <translation><!-- Outbound reply --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private Message</masterLabel>
+            <translation><!-- Private Message --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Registered Account</masterLabel>
+            <translation><!-- Registered Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Search</masterLabel>
+            <translation><!-- Search --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wall Post</masterLabel>
+            <translation><!-- Wall Post --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>วันที่อัพเดต</label>
+        <name>Updated_Date__c</name>
+    </fields>
+    <fields>
+        <label>ประวัติส่วนตัวของผู้ใช้</label>
+        <name>User_Bio__c</name>
+    </fields>
+    <fields>
+        <label>วันที่สร้างผู้ใช้</label>
+        <name>User_Creation_Date__c</name>
+    </fields>
+    <fields>
+        <label>ข้อความทวีตล่าสุดของผู้ใช้</label>
+        <name>User_Last_tweet__c</name>
+    </fields>
+    <fields>
+        <label>ผู้ใช้ชอบ</label>
+        <name>User_Likes__c</name>
+    </fields>
+    <fields>
+        <label>จำนวนสถานะการติดตาม/ผู้ติดตามของผู้ใช้</label>
+        <name>User_Status_count__c</name>
+    </fields>
+    <layouts>
+        <layout>Conversation Layout</layout>
+        <sections>
+            <label><!-- Author Info --></label>
+            <section>Author Info</section>
+        </sections>
+        <sections>
+            <label><!-- Content --></label>
+            <section>Content</section>
+        </sections>
+        <sections>
+            <label><!-- Conversation Origin --></label>
+            <section>Conversation Origin</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Disposition --></label>
+            <section>Disposition</section>
+        </sections>
+        <sections>
+            <label><!-- Reply Details --></label>
+            <section>Reply Details</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>ชื่อการสนทนา</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Author Name --></errorMessage>
+        <name>Author_Name_can_not_be_empty</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Author Username and Origin Date fields can not be empty. --></errorMessage>
+        <name>Fields_can_not_be_empty</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Origin date --></errorMessage>
+        <name>Origin_that_not_be_empty</name>
+    </validationRules>
+    <webLinks>
+        <label>เพิ่มในแคมเปญ</label>
+        <name>Add_To_Campaign</name>
+    </webLinks>
+    <webLinks>
+        <label>เพิ่มในแคมเปญ</label>
+        <name>Add_to_Campaign_Massive</name>
+    </webLinks>
+    <webLinks>
+        <label>สร้างเคส</label>
+        <name>Create_Case</name>
+    </webLinks>
+    <webLinks>
+        <label>สร้างผู้ติดต่อ</label>
+        <name>Create_Contact</name>
+    </webLinks>
+    <webLinks>
+        <label>สร้างผู้ติดต่อ</label>
+        <name>Create_Contact_Massive</name>
+    </webLinks>
+    <webLinks>
+        <label>สร้างโซลูชัน</label>
+        <name>Create_Knowledge</name>
+    </webLinks>
+    <webLinks>
+        <label>สร้างลีด</label>
+        <name>Create_Lead</name>
+    </webLinks>
+    <webLinks>
+        <label>สร้างลีด</label>
+        <name>Create_Lead_Massive</name>
+    </webLinks>
+    <webLinks>
+        <label>สร้างบัญชีผู้ใช้ประเภทบุคคล</label>
+        <name>Create_Person_Account</name>
+    </webLinks>
+    <webLinks>
+        <label>สร้างบัญชีผู้ใช้ประเภทบุคคล</label>
+        <name>Create_Person_Account_Massive</name>
+    </webLinks>
+    <webLinks>
+        <label>ลบที่ละเว้นไว้</label>
+        <name>Delete_Ignored</name>
+    </webLinks>
+    <webLinks>
+        <label>สร้างเคส</label>
+        <name>Escalate_to_Case</name>
+    </webLinks>
+    <webLinks>
+        <label>รับข้อมูล Twitter</label>
+        <name>Get_Author_Info</name>
+    </webLinks>
+    <webLinks>
+        <label>รับข้อมูล Twitter</label>
+        <name>Get_Author_Info_Massive</name>
+    </webLinks>
+    <webLinks>
+        <label>รับความคิดเห็น</label>
+        <name>Get_Comments</name>
+    </webLinks>
+    <webLinks>
+        <label>รับความคิดเห็น</label>
+        <name>Get_Comments_Massive</name>
+    </webLinks>
+    <webLinks>
+        <label>รับการสนทนา</label>
+        <name>Get_Conversation</name>
+    </webLinks>
+    <webLinks>
+        <label>รับการสนทนา</label>
+        <name>Get_Conversation_Detail</name>
+    </webLinks>
+    <webLinks>
+        <label>รับคะแนนของ Klout</label>
+        <name>Get_Klout_Score</name>
+    </webLinks>
+    <webLinks>
+        <label>รับคะแนนของ Klout</label>
+        <name>Get_Klout_Score_Massive</name>
+    </webLinks>
+    <webLinks>
+        <label>รับการสนทนา</label>
+        <name>Get_More_Tweets</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Get_Private_Messages --></label>
+        <name>Get_Private_Messages</name>
+    </webLinks>
+    <webLinks>
+        <label>ละเว้น</label>
+        <name>Ignore</name>
+    </webLinks>
+    <webLinks>
+        <label>ละเว้น</label>
+        <name>Ignore_Detail</name>
+    </webLinks>
+    <webLinks>
+        <label>ทำเครื่องหมายเป็นตรวจทานแล้ว</label>
+        <name>Mark_as_reviewed</name>
+    </webLinks>
+    <webLinks>
+        <label>ทำเครื่องหมายเป็นตรวจทานแล้ว</label>
+        <name>Mark_as_reviewed_Detail</name>
+    </webLinks>
+    <webLinks>
+        <label>แย่มาก</label>
+        <name>Negative_Sentiment_Detail</name>
+    </webLinks>
+    <webLinks>
+        <label>เฉย ๆ</label>
+        <name>Neutral_Sentiment_Detail</name>
+    </webLinks>
+    <webLinks>
+        <label>ยอดเยี่ยม</label>
+        <name>Positive_Sentiment_Detail</name>
+    </webLinks>
+    <webLinks>
+        <label>โพสต์ไปยัง Chatter</label>
+        <name>Post_to_Chatter</name>
+    </webLinks>
+    <webLinks>
+        <label>สร้างโซลูชัน</label>
+        <name>Promote_to_Knowledge</name>
+    </webLinks>
+    <webLinks>
+        <label>ลบออกจาก Facebook</label>
+        <name>Remove_from_Facebook</name>
+    </webLinks>
+    <webLinks>
+        <label>ตอบกลับ</label>
+        <name>Reply</name>
+    </webLinks>
+    <webLinks>
+        <label>ตอบกลับ</label>
+        <name>Send_A_Tweet</name>
+    </webLinks>
+    <webLinks>
+        <label>ตอบกลับ</label>
+        <name>Send_Twitter_Message</name>
+    </webLinks>
+    <webLinks>
+        <label>แก้ปัญหาโดยกลุ่มผู้ใช้แล้ว</label>
+        <name>Solved_By_Community</name>
+    </webLinks>
+    <webLinks>
+        <label>แก้ปัญหาโดยกลุ่มผู้ใช้แล้ว</label>
+        <name>Solved_By_Community_Massive</name>
+    </webLinks>
+</CustomObjectTranslation>

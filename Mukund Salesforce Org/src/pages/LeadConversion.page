@@ -1,0 +1,50 @@
+<apex:page controller="LeadConversionController">
+<apex:form >
+<apex:pageBlock >
+
+<apex:pageBlockSection columns="1" title="Convert Lead" collapsible="false">
+    <apex:inputField label="Record Owner" value="{!wlead.OwnerId}" required="true"/> 
+    <apex:inputCheckbox label="Send Email to the Owner" style="font-weight:bold" value="{!sendEmail}" />
+     <apex:inputField label="Account Name" value="{!optty.AccountId}" required="true"/> 
+    <apex:inputText label="Opportunity Name" value="{!opptyName}" required="true"/>  
+
+    <apex:inputCheckbox label="Do not create a new opportunity upon conversion" style="font-weight:bold" value="{!createOppty}" />
+    
+    <apex:selectList size="1" label="Converted Status">
+			<apex:selectOptions value="{!items}" />		
+		</apex:selectList>    
+    
+</apex:pageBlockSection>
+
+<apex:pageBlockSection columns="2" title="Task Information" collapsible="false">
+    <apex:inputField label="Subject" value="{!task.Subject}" required="true"/> 
+    <apex:inputField label="Status" value="{!task.Status}" required="true"/>
+    <apex:inputField label="Due Date" value="{!task.ActivityDate}" />
+    <apex:inputField label="Priority" value="{!task.Priority}" required="true"/>
+   
+    
+</apex:pageBlockSection>
+
+<apex:pageBlockSection columns="1" title="Description Information" collapsible="false">
+    <apex:inputField style="width: 400px; height: 100px;" label="Comments" value="{!task.Description}"/> 
+    
+   <apex:inputField label="Send Notification Email" value="{!task.IsReminderSet}" />
+    
+</apex:pageBlockSection>
+
+<apex:pageBlockSection columns="1" title="Reminder" collapsible="false">
+    <apex:inputField label="Reminder" value="{!task.ReminderDateTime}" /> 
+   
+    
+</apex:pageBlockSection>
+
+<apex:pageBlockButtons location="top">
+
+
+<apex:commandButton value="Convert" action="{!convert}" />
+<apex:commandButton value="Cancel" action="{!cancel}" immediate="true"/>
+</apex:pageBlockButtons>
+
+</apex:pageBlock>
+</apex:form>
+</apex:page>

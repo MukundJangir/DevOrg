@@ -1,0 +1,20 @@
+<apex:page standardController="BSCS__c" extensions="BSCSExtention">
+    
+    <apex:form >
+        <apex:pageBlock >
+            
+                <apex:pageBlockTable width="100%" value="{!testDriveList}" var="testDrive">
+                    
+                    <apex:column headervalue="Customer">
+                        <a href="/{!testDrive.id}" target="_parent">{!testDrive.Customer__c}</a>
+                    </apex:column>
+                    <apex:column headervalue="Feedback" value="{!testDrive.Feedback_Completed__c}"/>
+                    <apex:column headervalue="Vehicle" value="{!testDrive.Vehicle__c}"/>
+                </apex:pageBlockTable>
+               
+            
+            </apex:pageBlock>
+        
+        
+    </apex:form>
+</apex:page>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>การดูแลหน้า Facebook</value>
+    </caseValues>
+    <fields>
+        <label>หน้า Facebook</label>
+        <name>Facebook_Page__c</name>
+        <relationshipLabel>การดูแลหน้า Facebook</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ผู้ใช้ Facebook</label>
+        <name>Facebook_User__c</name>
+        <relationshipLabel>การดูแลหน้า Facebook</relationshipLabel>
+    </fields>
+    <nameFieldLabel>หมายเลข</nameFieldLabel>
+</CustomObjectTranslation>

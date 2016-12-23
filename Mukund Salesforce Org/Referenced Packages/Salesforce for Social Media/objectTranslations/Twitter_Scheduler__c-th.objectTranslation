@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>โปรแกรมจัดกำหนดเวลาใน Twitter</value>
+    </caseValues>
+    <fields>
+        <label>หน้า Facebook</label>
+        <name>Facebook_Page__c</name>
+        <relationshipLabel>ตัวจัดกำหนดเวลาใน Twitter</relationshipLabel>
+    </fields>
+    <fields>
+        <label>เวลาที่เรียกใช้ครั้งล่าสุด</label>
+        <name>Last_Run_Time__c</name>
+    </fields>
+    <fields>
+        <label>เวลาของรอบระยะเวลา</label>
+        <name>Period_Time__c</name>
+    </fields>
+    <fields>
+        <label>ผู้ใช้ที่กำลังเรียกใช้</label>
+        <name>Running_User__c</name>
+        <relationshipLabel>ตัวจัดกำหนดเวลาใน Twitter</relationshipLabel>
+    </fields>
+    <fields>
+        <label>บัญชีผู้ใช้ Twitter</label>
+        <name>Twitter_Account__c</name>
+        <relationshipLabel>ตัวจัดกำหนดเวลาใน Twitter</relationshipLabel>
+    </fields>
+    <fields>
+        <label>การค้นหาใน Twitter</label>
+        <name>Twitter_Search__c</name>
+        <relationshipLabel>ตัวจัดกำหนดเวลาใน Twitter</relationshipLabel>
+    </fields>
+    <fields>
+        <label>รหัสประจำงาน</label>
+        <name>jobId__c</name>
+    </fields>
+    <layouts>
+        <layout>Twitter_Scheduler Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>ชื่อของโปรแกรมจัดกำหนดเวลาใน Twitter</nameFieldLabel>
+</CustomObjectTranslation>

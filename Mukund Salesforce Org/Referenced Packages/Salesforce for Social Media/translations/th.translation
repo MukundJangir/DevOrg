@@ -1,0 +1,2134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label>Salesforce สำหรับ Social Media</label>
+        <name>Salesforce_for_Twitter</name>
+    </customApplications>
+    <customLabels>
+        <label>ยังไม่ได้ระบุ URL ของไซต์ฐานความรู้สาธารณะ โปรดไปที่หน้าการตั้งค่าแล้วตั้งค่า URL ของไซต์ฐานความรู้สาธารณะ</label>
+        <name>ARTICLE_URL_SITE_NEEDED</name>
+    </customLabels>
+    <customLabels>
+        <label>ตรวจสอบความถูกต้องของบัญชีผู้ใช้นี้เรียบร้อยแล้ว</label>
+        <name>Account_Already_Validated</name>
+    </customLabels>
+    <customLabels>
+        <label>โปรดเลือกแหล่งที่จะค้นหาอย่างน้อยหนึ่งแหล่ง</label>
+        <name>Account_Keyword_Search</name>
+    </customLabels>
+    <customLabels>
+        <label>บัญชีผู้ใช้ที่เลือกกำลังติดตามผู้ใช้ Twitter อยู่แล้วในขณะนี้</label>
+        <name>Accounts_following_Twitter_user</name>
+    </customLabels>
+    <customLabels>
+        <label>เลือกบัญชีผู้ใช้ที่คุณต้องการติดตาม</label>
+        <name>Accounts_wantto_follow</name>
+    </customLabels>
+    <customLabels>
+        <label>เปิดใช้งานอยู่</label>
+        <name>Active</name>
+    </customLabels>
+    <customLabels>
+        <label>เพิ่มผู้สนับสนุน</label>
+        <name>Add_Contributor_Title</name>
+    </customLabels>
+    <customLabels>
+        <label>เพิ่มสมาชิกในแคมเปญ</label>
+        <name>Add_Members_to_Campaign</name>
+    </customLabels>
+    <customLabels>
+        <label>เพิ่มในการตอบกลับ</label>
+        <name>Add_Shortened_Url</name>
+    </customLabels>
+    <customLabels>
+        <label>เพิ่มลีดและผู้ติดต่อในแคมเปญ</label>
+        <name>Add_to_a_Campaign</name>
+    </customLabels>
+    <customLabels>
+        <label>เพิ่มแล้ว</label>
+        <name>Added</name>
+    </customLabels>
+    <customLabels>
+        <label>เพิ่มแล้วใน</label>
+        <name>Added_to</name>
+    </customLabels>
+    <customLabels>
+        <label>การดูแลระบบ</label>
+        <name>Administration</name>
+    </customLabels>
+    <customLabels>
+        <label>การวิเคราะห์</label>
+        <name>Analytics</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Answer_Integration_Title --></label>
+        <name>Answer_Integration_Title</name>
+    </customLabels>
+    <customLabels>
+        <label>ลักษณะที่ปรากฏ</label>
+        <name>Appearance_Section_Title</name>
+    </customLabels>
+    <customLabels>
+        <label>รายละเอียดของบทความ</label>
+        <name>Article_Detail</name>
+    </customLabels>
+    <customLabels>
+        <label>บทความของเคส</label>
+        <name>Article_Name</name>
+    </customLabels>
+    <customLabels>
+        <label>ยังไม่ได้ตรวจสอบความถูกต้องของหน้า Facebook ที่เชื่อมโยงกับการสนทนานี้</label>
+        <name>Associated_Facebook_Page_Not_Validated</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- BAD_REQUEST_MESSAGE --></label>
+        <name>BAD_REQUEST_MESSAGE</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่สามารถติดต่อ Bitly ได้  โปรดตรวจสอบว่าคุณป้อนชื่อผู้ใช้ Bitly และคีย์ API ที่ถูกต้องแล้ว</label>
+        <name>BITLY_REQUIRED</name>
+    </customLabels>
+    <customLabels>
+        <label>เลือกได้สูงสุด 50 เร็กคอร์ด</label>
+        <name>BROWSER_NOT_SUPPORT_50</name>
+    </customLabels>
+    <customLabels>
+        <label>เนื้อความ</label>
+        <name>Body</name>
+    </customLabels>
+    <customLabels>
+        <label>คุณไม่สามารถเพิกถอนการอนุญาต Facebook สำหรับหน้านี้ได้เนื่องจากหน้านี้เชื่อมโยงกับกลุ่มผู้ใช้คำตอบ</label>
+        <name>CANNOT_REVOKE_PAGE</name>
+    </customLabels>
+    <customLabels>
+        <label>องค์กรของคุณไม่ได้เปิดใช้งาน Chatter  โปรดติดต่อผู้ดูแลระบบของคุณเพื่อเปิดใช้งาน Chatter</label>
+        <name>CHATTER_NOT_ENABLED</name>
+    </customLabels>
+    <customLabels>
+        <label>ความพยายามร้องขอของคุณไม่เสร็จสมบูรณ์ ตรวจสอบข้อมูลการสนทนาแล้วลองอีกครั้ง</label>
+        <name>CHATTER_POST_EXCEPTION</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องการปิดเคสที่เชื่อมโยงกันอยู่ด้วยหรือไม่?</label>
+        <name>CLOSE_ASSOCIATED_CASE</name>
+    </customLabels>
+    <customLabels>
+        <label>{0} ไม่ใช่รหัสประจำที่ถูกต้อง</label>
+        <name>CMTY_errorMsg_invalidID</name>
+    </customLabels>
+    <customLabels>
+        <label>เราประสบปัญหา</label>
+        <name>CMTY_errorPage_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CONSOLE_VALIDATION_ERROR --></label>
+        <name>CONSOLE_VALIDATION_ERROR</name>
+    </customLabels>
+    <customLabels>
+        <label>สร้าง&lt;a href=&quot;/{0}&quot; target=&quot;_blank&quot;&gt;ผู้ติดต่อ&lt;/a&gt;สำหรับผู้ใช้ที่มีรหัสประจำ &quot;{1}&quot; เรียบร้อยแล้ว</label>
+        <name>CONTACT_CREATED_FOR_USER_HTML</name>
+    </customLabels>
+    <customLabels>
+        <label>ทำเครื่องหมายการสนทนาเป็น ลบแล้ว เรียบร้อยแล้ว</label>
+        <name>CONVERSATION_IS_DELETED_GENERIC</name>
+    </customLabels>
+    <customLabels>
+        <label>เรียกข้อมูลความคิดเห็นทั้งหมดสำหรับการสนทนานี้แล้ว</label>
+        <name>CONVERSATION_NOT_REPLY</name>
+    </customLabels>
+    <customLabels>
+        <label>สร้างเคสใหม่สำหรับการสนทนานี้</label>
+        <name>CREATE_NEW_CASE</name>
+    </customLabels>
+    <customLabels>
+        <label>ยกเลิก</label>
+        <name>Cancel</name>
+    </customLabels>
+    <customLabels>
+        <label>โซลูชันของเคส</label>
+        <name>Case_Solutions</name>
+    </customLabels>
+    <customLabels>
+        <label>สร้างเคสแล้ว</label>
+        <name>Cases_Created</name>
+    </customLabels>
+    <customLabels>
+        <label>เปลี่ยนสถานะการติดตาม</label>
+        <name>Change_follow_Status</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่ได้ทำการเปลี่ยนแปลงใด ๆ กับผู้ติดตามของ</label>
+        <name>Changes_made_Followers</name>
+    </customLabels>
+    <customLabels>
+        <label>เลือกเกณฑ์การค้นหา</label>
+        <name>Choose_search_criteria</name>
+    </customLabels>
+    <customLabels>
+        <label>รายละเอียดของการตอบกลับ</label>
+        <name>Comment_Detail</name>
+    </customLabels>
+    <customLabels>
+        <label>โปรดติดต่อผู้ดูแลระบบของคุณเพื่อขอรับความช่วยเหลือ</label>
+        <name>Contact_System_Administrator</name>
+    </customLabels>
+    <customLabels>
+        <label>ผู้ติดต่อ</label>
+        <name>Contacts</name>
+    </customLabels>
+    <customLabels>
+        <label>สร้างผู้ติดต่อแล้ว</label>
+        <name>Contacts_Created</name>
+    </customLabels>
+    <customLabels>
+        <label>มีผู้ติดต่อ/ลีดอยู่แล้วในแคมเปญ</label>
+        <name>Contacts_Leads_already_existed</name>
+    </customLabels>
+    <customLabels>
+        <label>เนื้อหา</label>
+        <name>Content</name>
+    </customLabels>
+    <customLabels>
+        <label>การสนทนา</label>
+        <name>Conversations</name>
+    </customLabels>
+    <customLabels>
+        <label>สร้างการสนทนาแล้ว</label>
+        <name>Conversations_Created</name>
+    </customLabels>
+    <customLabels>
+        <label>สร้างเคส - ผลลัพธ์</label>
+        <name>Create_Case_Results</name>
+    </customLabels>
+    <customLabels>
+        <label>สร้างเคส</label>
+        <name>Create_Cases</name>
+    </customLabels>
+    <customLabels>
+        <label>สร้างผู้ติดต่อ - ผลลัพธ์</label>
+        <name>Create_Contact_Results</name>
+    </customLabels>
+    <customLabels>
+        <label>สร้างผู้ติดต่อ</label>
+        <name>Create_Contacts</name>
+    </customLabels>
+    <customLabels>
+        <label>สร้างลีด - ผลลัพธ์</label>
+        <name>Create_Lead_Results</name>
+    </customLabels>
+    <customLabels>
+        <label>สร้างลีด</label>
+        <name>Create_Leads</name>
+    </customLabels>
+    <customLabels>
+        <label>สร้างโซลูชัน</label>
+        <name>Create_Solutions</name>
+    </customLabels>
+    <customLabels>
+        <label>สร้างโซลูชัน - ผลลัพธ์</label>
+        <name>Create_Solutions_Results</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่ได้บันทึกการสนทนานี้ รหัสประจำภายนอกซ้ำกัน : {0}</label>
+        <name>DUPLICATED_EXTERNAL_ID</name>
+    </customLabels>
+    <customLabels>
+        <label>ลบที่ละเว้นไว้</label>
+        <name>Delete_Ignored</name>
+    </customLabels>
+    <customLabels>
+        <label>รายละเอียด</label>
+        <name>Detail</name>
+    </customLabels>
+    <customLabels>
+        <label>แก้ไข</label>
+        <name>Edit</name>
+    </customLabels>
+    <customLabels>
+        <label>เปิดใช้งานแอพพลิเคชัน</label>
+        <name>Enable_Application_Button</name>
+    </customLabels>
+    <customLabels>
+        <label>ข้อผิดพลาด : สิทธิ์ของผู้ใช้</label>
+        <name>Error_User_Permissions</name>
+    </customLabels>
+    <customLabels>
+        <label>สมาชิกปัจจุบันจาก</label>
+        <name>Existing_members_from</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- @private --></label>
+        <name>FACEBOOK_APP_ID_AND_SECRET_REQUIRED</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่สามารถสร้างเคสสำหรับการสนทนาที่ลบไปแล้วได้</label>
+        <name>FACEBOOK_CASE_CANTCREATED</name>
+    </customLabels>
+    <customLabels>
+        <label>การตอบกลับใน Chatter จะไม่ถูกโพสต์ไปยัง Facebook อีกครั้ง</label>
+        <name>FACEBOOK_CHATTER_POST_WARNING</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่สามารถดำเนินการให้เสร็จสมบูรณ์ได้ ไม่มีอยู่การสนทนานี้อยู่บน Facebook</label>
+        <name>FACEBOOK_CONVERATION_IS_DELETED</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่สามารถโพสต์การตอบกลับได้ การสนทนาที่คุณกำลังตอบกลับถูกลบออกจาก Facebook ไปแล้ว</label>
+        <name>FACEBOOK_CONVERSATION_ALREADY_DELETED</name>
+    </customLabels>
+    <customLabels>
+        <label>การสนทนานี้จะถูกลบออกจาก Facebook และทำเครื่องหมายเป็น &quot;ลบแล้ว&quot; ใน Salesforce</label>
+        <name>FACEBOOK_CONVERSATION_WILL_BE_REMOVED</name>
+    </customLabels>
+    <customLabels>
+        <label>รายการบันทึกการแก้ไขปัญหาของ Facebook</label>
+        <name>FACEBOOK_ERROR_LOG</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่มีหน้านี้อยู่</label>
+        <name>FACEBOOK_ERROR_PAGE_EMPTY</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่สามารถตรวจสอบความถูกต้องของหน้านี้ได้ เนื่องจากยังไม่ได้เผยแพร่หน้านี้</label>
+        <name>FACEBOOK_ERROR_PAGE_NOT_PUBLISHED</name>
+    </customLabels>
+    <customLabels>
+        <label>การค้นหาภายนอกในหน้า Facebook เสร็จสมบูรณ์แล้ว รหัสประจำหน้า:</label>
+        <name>FACEBOOK_EXTERNAL_ACCOUNT_SEARCH_FINISHED</name>
+    </customLabels>
+    <customLabels>
+        <label>เพิ่ม</label>
+        <name>FACEBOOK_FAN_PAGE_BUTTON</name>
+    </customLabels>
+    <customLabels>
+        <label>ดำเนินการต่อ</label>
+        <name>FACEBOOK_FAN_PAGE_BUTTON_CONTINUE</name>
+    </customLabels>
+    <customLabels>
+        <label>จัดการแฟนเพจบน Facebook</label>
+        <name>FACEBOOK_FAN_PAGE_TITLE</name>
+    </customLabels>
+    <customLabels>
+        <label>มีหน้า Facebook เหล่านี้อยู่แล้ว</label>
+        <name>FACEBOOK_FAN_PAGE_TITLE_EXIST</name>
+    </customLabels>
+    <customLabels>
+        <label>สร้างหน้า Facebook</label>
+        <name>FACEBOOK_FAN_PAGE_TITLE_NEW</name>
+    </customLabels>
+    <customLabels>
+        <label>ผู้ใช้ Facebook นี้ไม่ได้เป็นผู้ดูแลระบบสำหรับแฟนเพจของ Facebook ก่อนที่คุณจะสามารถสร้างโพสต์บนกระดานข้อความของ Facebook เป็นผู้ใช้นี้ได้ คุณต้องเปิดใช้งานผู้ใช้นี้เป็นผู้ดูแลระบบสำหรับแฟนเพจของ Facebook ใน Facebook และอนุญาตผู้ใช้ใน Salesforce อีกครั้งก่อน</label>
+        <name>FACEBOOK_FAN_PAGE_TITLE_NOT_ADMIN</name>
+    </customLabels>
+    <customLabels>
+        <label>รหัสประจำผู้ใช้ Facebook ซ้ำกัน</label>
+        <name>FACEBOOK_ID_REPEATED</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FACEBOOK_INBOUND_PM --></label>
+        <name>FACEBOOK_INBOUND_PM</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่ได้สร้างผู้ติดต่อสำหรับชื่อผู้ใช้ Facebook นี้ เนื่องจากมีการกำหนดลีดไปยังชื่อผู้ใช้นี้อยู่แล้ว</label>
+        <name>FACEBOOK_LEAD_EXISTED</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่ได้สร้างลีดสำหรับชื่อผู้ใช้ Facebook นี้ เนื่องจากมีผู้ติดต่ออยู่แล้ว</label>
+        <name>FACEBOOK_LEAD_HAS_CONTACT</name>
+    </customLabels>
+    <customLabels>
+        <label>การค้นหาด้วยตนเองจากหน้า Facebook เสร็จสมบูรณ์แล้ว รหัสประจำหน้า:</label>
+        <name>FACEBOOK_MANUAL_ACCOUNT_SEARCH_FINISHED</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Attachment --></label>
+        <name>FACEBOOK_MESSAGE_ATTACHMENT_ONLY</name>
+    </customLabels>
+    <customLabels>
+        <label>บัญชีผู้ใช้ที่คุณตรวจสอบความถูกต้องใน Facebook ไม่ตรงกันกับบัญชีผู้ใช้ที่คุณเลือกบน Salesforce</label>
+        <name>FACEBOOK_OAUTH_DIFF_USERNAMES</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FACEBOOK_OUTBOUND_PM --></label>
+        <name>FACEBOOK_OUTBOUND_PM</name>
+    </customLabels>
+    <customLabels>
+        <label>ตรวจสอบความถูกต้องของหน้า Facebook นี้เรียบร้อยแล้ว</label>
+        <name>FACEBOOK_PAGE_ALREADY_VALIDATED</name>
+    </customLabels>
+    <customLabels>
+        <label>หน้านี้ยังไม่ได้ตรวจสอบอย่างถูกต้อง</label>
+        <name>FACEBOOK_PAGE_NOTVALIDATED</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่สามารถตรวจสอบความถูกต้องของหน้านี้ เนื่องจากไม่สามารถเข้าถึงหน้านี้ได้</label>
+        <name>FACEBOOK_PAGE_NOT_ACCESSIBLE</name>
+    </customLabels>
+    <customLabels>
+        <label>การค้นหาหน้า Facebook</label>
+        <name>FACEBOOK_PAGE_TITLE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Private Message has attachment --></label>
+        <name>FACEBOOK_PM_HAS_ATTACHMENT</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Private Message has attachments --></label>
+        <name>FACEBOOK_PM_HAS_ATTACHMENTS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Action for PMs --></label>
+        <name>FACEBOOK_PM_ONLY</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- @private --></label>
+        <name>FACEBOOK_PRIVATEMESSAGE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The action requested is unavailable for Facebook Private Messages. --></label>
+        <name>FACEBOOK_PUBLIC_ONLY</name>
+    </customLabels>
+    <customLabels>
+        <label>การกระทำที่คุณร้องขอสามารถใช้งานได้เฉพาะสำหรับการสนทนาบน Facebook เท่านั้น</label>
+        <name>FACEBOOK_RECORDS_ONLY</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- reply --></label>
+        <name>FACEBOOK_REPLY</name>
+    </customLabels>
+    <customLabels>
+        <label>การค้นหาจากหน้า Facebook ตามที่กำหนดเวลาไว้เสร็จสมบูรณ์แล้ว รหัสประจำการค้นหา:</label>
+        <name>FACEBOOK_SCHEDULED_KEYWORD_SEARCH_FINISHED</name>
+    </customLabels>
+    <customLabels>
+        <label>สำหรับผู้ใช้ Facebook นี้</label>
+        <name>FACEBOOK_SCREENNAME</name>
+    </customLabels>
+    <customLabels>
+        <label>ลีดสำหรับผู้ใช้ Facebook นี้</label>
+        <name>FACEBOOK_SCREENNAME_HREF</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FACEBOOK_TASK_SUBJECT_PM --></label>
+        <name>FACEBOOK_TASK_SUBJECT_PM</name>
+    </customLabels>
+    <customLabels>
+        <label>ตรวจสอบความถูกต้องของผู้ใช้ Facebook นี้เรียบร้อยแล้ว</label>
+        <name>FACEBOOK_USER_ALREADY_VALIDATED</name>
+    </customLabels>
+    <customLabels>
+        <label>ผู้ใช้นี้ยังไม่ได้รับการตรวจสอบอย่างถูกต้อง</label>
+        <name>FACEBOOK_USER_NOT_VALIDATED</name>
+    </customLabels>
+    <customLabels>
+        <label>ผู้ใช้ของเซสชันปัจจุบันบน Facebook ได้รับการตรวจสอบความถูกต้องเรียบร้อยแล้ว โปรดออกจากระบบ Facebook แล้วลองอีกครั้ง</label>
+        <name>FACEBOOK_USER_VALIDATED_AGAIAN</name>
+    </customLabels>
+    <customLabels>
+        <label>ผู้ใช้ที่คุณกำลังพยายามตรวจสอบความถูกต้องยังไม่ได้เชื่อมโยงกับบัญชีผู้ใช้ Facebook นี้</label>
+        <name>FACEBOOK_USER_VALIDATED_ERROR</name>
+    </customLabels>
+    <customLabels>
+        <label>ที่มีรหัสประจำผู้ใช้ Facebook</label>
+        <name>FACEBOOK_WITH_USERNAME</name>
+    </customLabels>
+    <customLabels>
+        <label>พาเรนต์ของความคิดเห็นนี้บน Facebook ถูกลบไปแล้ว</label>
+        <name>FCBK_POST_NOT_ACCESSIBLE</name>
+    </customLabels>
+    <customLabels>
+        <label>การกระทำนี้สามารถใช้งานได้เฉพาะสำหรับการสนทนาบน Twitter เท่านั้น</label>
+        <name>FUNCTION_ONLY_FOR_TWITTER_CONVERSATION</name>
+    </customLabels>
+    <customLabels>
+        <label>รหัสประจำผู้ใช้ Facebook</label>
+        <name>Facebook_Id</name>
+    </customLabels>
+    <customLabels>
+        <label>ผู้ใช้ Facebook</label>
+        <name>Facebook_Users</name>
+    </customLabels>
+    <customLabels>
+        <label>ติดตาม</label>
+        <name>Follow</name>
+    </customLabels>
+    <customLabels>
+        <label>ติดตาม - ผลลัพธ์</label>
+        <name>Follow_Results</name>
+    </customLabels>
+    <customLabels>
+        <label>เกิดข้อผิดพลาดดังต่อไปนี้</label>
+        <name>Following_errors_occurred</name>
+    </customLabels>
+    <customLabels>
+        <label>เกิดข้อผิดพลาดดังต่อไปนี้</label>
+        <name>Following_errors_ocurred</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Grant FB access not allowed --></label>
+        <name>GRANT_FB_ACCESS_NOT_ALLOWED_FROM_PAGE</name>
+    </customLabels>
+    <customLabels>
+        <label>รับข้อมูล Twitter</label>
+        <name>Get_Author_Info</name>
+    </customLabels>
+    <customLabels>
+        <label>รับการสนทนา</label>
+        <name>Get_Conversation</name>
+    </customLabels>
+    <customLabels>
+        <label>รับการสนทนา</label>
+        <name>Get_more_tweets</name>
+    </customLabels>
+    <customLabels>
+        <label>ย้อนกลับ</label>
+        <name>Go_Back</name>
+    </customLabels>
+    <customLabels>
+        <label>ไปที่แคมเปญ</label>
+        <name>Go_To_Campaign</name>
+    </customLabels>
+    <customLabels>
+        <label>แทรก</label>
+        <name>INSERT</name>
+    </customLabels>
+    <customLabels>
+        <label>ละเว้นการสนทนา</label>
+        <name>Ignore_Conversations</name>
+    </customLabels>
+    <customLabels>
+        <label>ละเว้นการสนทนา - ผลลัพธ์</label>
+        <name>Ignore_Conversations_Results</name>
+    </customLabels>
+    <customLabels>
+        <label>มีข้อผิดพลาดเกิดขึ้น URL ของการส่งค่ากลับไม่ถูกต้อง:</label>
+        <name>Invalid_return_URL</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่สามารถติดต่อ Klout ได้  โปรดตรวจสอบว่าคุณป้อนชื่อผู้ใช้ Klout และคีย์ API ที่ถูกต้องแล้ว</label>
+        <name>KLOUT_REQUIRED</name>
+    </customLabels>
+    <customLabels>
+        <label>การค้นหาด้วยคำสำคัญใน Twitter ต้องไม่ซ้ำกัน</label>
+        <name>Keyword_Search_unique</name>
+    </customLabels>
+    <customLabels>
+        <label>สถานะของลีด</label>
+        <name>Lead_Status</name>
+    </customLabels>
+    <customLabels>
+        <label>ลีด</label>
+        <name>Leads</name>
+    </customLabels>
+    <customLabels>
+        <label>สร้างลีดแล้ว</label>
+        <name>Leads_Created</name>
+    </customLabels>
+    <customLabels>
+        <label>ระบบจะสร้างลีดสำหรับการสนทนาเหล่านี้</label>
+        <name>Leads_created_for_Conversations</name>
+    </customLabels>
+    <customLabels>
+        <label>ชอบ</label>
+        <name>Like</name>
+    </customLabels>
+    <customLabels>
+        <label>การกระทำนี้สามารถใช้งานได้เฉพาะสำหรับการสนทนาบน Facebook เท่านั้น</label>
+        <name>Like_Error_Message</name>
+    </customLabels>
+    <customLabels>
+        <label>เกินขีดจำกัดที่อนุญาตแล้ว</label>
+        <name>Limit_exceeded</name>
+    </customLabels>
+    <customLabels>
+        <label>ตั้งค่า</label>
+        <name>Link_To_Setup_Label</name>
+    </customLabels>
+    <customLabels>
+        <label>กำลังโหลด...</label>
+        <name>Loading</name>
+    </customLabels>
+    <customLabels>
+        <label>ชนิดของข้อความ</label>
+        <name>Message_Type</name>
+    </customLabels>
+    <customLabels>
+        <label>ชอบ {0} คน</label>
+        <name>Multiple_Likes</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NO_VALID_TWITTER_ACCOUNT --></label>
+        <name>NO_VALID_TWITTER_ACCOUNT</name>
+    </customLabels>
+    <customLabels>
+        <label>ชื่อ</label>
+        <name>Name</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่สามารถค้นหาด้วยชื่อใน Twitter ได้ในขณะนี้ โปรดดูข้อมูลเพิ่มเติมได้ที่ &lt;a href=&quot;http://status.twitter.com/&quot; target=&quot;_blank&quot;&gt;http://status.twitter.com/&lt;/a&gt;</label>
+        <name>Name_Search_Unavailable</name>
+    </customLabels>
+    <customLabels>
+        <label>การนำทาง</label>
+        <name>Navigation</name>
+    </customLabels>
+    <customLabels>
+        <label>การสนทนาใหม่</label>
+        <name>New_Conversations</name>
+    </customLabels>
+    <customLabels>
+        <label>ถัดไป</label>
+        <name>Next</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่พบชื่อผู้ใช้ Twitter ที่ตรงกัน</label>
+        <name>No_Result_Search_Username</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่มีแคมเปญที่ใช้งานอยู่  โปรดสร้างหรือเปิดใช้งานแคมเปญได้ในแท็บ &quot;แคมเปญ&quot;</label>
+        <name>No_active_campaigns</name>
+    </customLabels>
+    <customLabels>
+        <label>รายการบันทึกการแก้ไขปัญหา</label>
+        <name>ORIGIN_TWITTER_TROUBLESHOOTING_LOG</name>
+    </customLabels>
+    <customLabels>
+        <label>รายการบันทึกการแก้ไขปัญหาที่ไม่รู้จัก</label>
+        <name>ORIGIN_UNKNOWN_TROUBLESHOOTING_LOG</name>
+    </customLabels>
+    <customLabels>
+        <label>ชอบ 1 คน</label>
+        <name>One_Like</name>
+    </customLabels>
+    <customLabels>
+        <label>การสนทนาเริ่มต้น</label>
+        <name>Origin_Conversation</name>
+    </customLabels>
+    <customLabels>
+        <label>เวอร์ชัน {0}</label>
+        <name>PACKAGE_VERSION</name>
+    </customLabels>
+    <customLabels>
+        <label>องค์กรของคุณไม่ได้เปิดใช้งานบัญชีผู้ใช้ประเภทบุคคล โปรดติดต่อผู้ดูแลระบบของคุณเพื่อขอรายละเอียดเพิ่มเติม</label>
+        <name>PERSON_ACCOUNTS_NOT_ENABLED</name>
+    </customLabels>
+    <customLabels>
+        <label>โปรดเลือกเร็กคอร์ดอย่างน้อยหนึ่งเร็กคอร์ด</label>
+        <name>PLEASE_SELECT_1</name>
+    </customLabels>
+    <customLabels>
+        <label>โพสต์ไปยัง Chatter</label>
+        <name>POST_TO_CHATTER</name>
+    </customLabels>
+    <customLabels>
+        <label>โพสต์การสนทนานี้ของ Twitter ไปยัง Feed ของ Chatter เรียบร้อยแล้ว โพสต์อีกครั้ง?</label>
+        <name>POST_TO_CHATTER_CONFIRM</name>
+    </customLabels>
+    <customLabels>
+        <label>โพสต์โดย @{0} วันที่ {1} เวลา {2}</label>
+        <name>POST_TO_CHATTER_FORMAT</name>
+    </customLabels>
+    <customLabels>
+        <label>โพสต์ไปยัง Facebook โดย {0} วันที่ {1} เวลา {2}</label>
+        <name>POST_TO_CHATTER_FORMAT_FCBK</name>
+    </customLabels>
+    <customLabels>
+        <label>เพิ่มข้อความเกี่ยวกับการสนทนานี้</label>
+        <name>POST_TO_CHATTER_TEXT1</name>
+    </customLabels>
+    <customLabels>
+        <label>การสนทนานี้จะถูกโพสต์ไปยัง Feed ของ Chatter ของคุณ</label>
+        <name>POST_TO_CHATTER_TEXT2</name>
+    </customLabels>
+    <customLabels>
+        <label>การตอบกลับใน Chatter จะไม่ถูกโพสต์ไปยัง Twitter อีกครั้ง</label>
+        <name>POST_TO_CHATTER_TEXT3</name>
+    </customLabels>
+    <customLabels>
+        <label>การตอบกลับใน Chatter จะไม่ถูกโพสต์ไปยัง Facebook อีกครั้ง</label>
+        <name>POST_TO_CHATTER_TEXT3b</name>
+    </customLabels>
+    <customLabels>
+        <label>โพสต์ไปยัง Chatter</label>
+        <name>POST_TO_CHATTER_TITLE</name>
+    </customLabels>
+    <customLabels>
+        <label>[ถัดไป]</label>
+        <name>Pagination_More</name>
+    </customLabels>
+    <customLabels>
+        <label>[ก่อนหน้า]</label>
+        <name>Pagination_Previous</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่จำเป็นต้องใช้ (การเข้าถึง Twitter ผ่าน OAuth)</label>
+        <name>Password_Not_Required</name>
+    </customLabels>
+    <customLabels>
+        <label>สร้างบัญชีผู้ใช้ประเภทบุคคลเรียบร้อยแล้ว</label>
+        <name>Person_Accounts_Created</name>
+    </customLabels>
+    <customLabels>
+        <label>กำลังเตรียมการค้นหา</label>
+        <name>Preparing_Search</name>
+    </customLabels>
+    <customLabels>
+        <label>ก่อนหน้า</label>
+        <name>Previous</name>
+    </customLabels>
+    <customLabels>
+        <label>กำลังประมวลผลลัพธ์...</label>
+        <name>Processing_Results</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Reply only from Twitter or Facebook case --></label>
+        <name>REPLY_ONLY_FROM_FACEBOOK_TWITTER_CASE</name>
+    </customLabels>
+    <customLabels>
+        <label>การร้องขอของคุณเกินจำนวนสูงสุด (25) ของงานที่กำหนดเวลาของ Apex แล้ว</label>
+        <name>REQUEST_EXCEEDED_MAX_APEX_JOBS</name>
+    </customLabels>
+    <customLabels>
+        <label>คุณไม่มีสิทธิ์ในการเข้าถึงบัญชีผู้ใช้ภายนอก  โปรดสร้างบัญชีผู้ใช้ในแท็บบัญชีผู้ใช้ Twitter หรือแท็บหน้า Facebook</label>
+        <name>REQUIRED_ACCOUNT</name>
+    </customLabels>
+    <customLabels>
+        <label>เลือกอย่างน้อยหนึ่งช่องทาง</label>
+        <name>REQUIRED_CHANNEL_SELECT</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่สามารถเข้าถึงหน้า Facebook ที่ต้องใช้เพื่อตอบกลับการสนทนานี้ได้ หรือหน้าดังกล่าวถูกลบไปแล้ว</label>
+        <name>REQUIRED_FCBK_ACCOUNT</name>
+    </customLabels>
+    <customLabels>
+        <label>เพิกถอนการอนุญาต Facebook สำหรับหน้านี้?</label>
+        <name>REVOKE_FACEBOOK_PAGE_ACCESS_CONFIRM</name>
+    </customLabels>
+    <customLabels>
+        <label>เพิกถอนการอนุญาต Facebook สำหรับผู้ใช้นี้?</label>
+        <name>REVOKE_FACEBOOK_USER_ACCESS_CONFIRM</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่สามารถเพิกถอนสิทธิ์ในการเข้าถึงได้ ยังไม่ได้ตรวจสอบความถูกต้องของหน้า Facebook นี้</label>
+        <name>REVOKE_PAGE_NOT_VALIDATED</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่สามารถเพิกถอนสิทธิ์ในการเข้าถึงได้ ยังไม่ได้ตรวจสอบความถูกต้องของผู้ใช้ Facebook นี้</label>
+        <name>REVOKE_USER_NOT_VALIDATED</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RSS not available --></label>
+        <name>RSS_NOT_AVAILABLE</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องการโทเค็นการเข้าถึง</label>
+        <name>Required_Access_Token</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องการข้อมูลประจำตัวการรับรองความถูกต้อง</label>
+        <name>Required_Credentials</name>
+    </customLabels>
+    <customLabels>
+        <label>ผลลัพธ์</label>
+        <name>Results</name>
+    </customLabels>
+    <customLabels>
+        <label>เพิกถอนการอนุญาต Twitter สำหรับบัญชีผู้ใช้นี้?</label>
+        <name>Revoke_Access_Confirm</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่สามารถเพิกถอนการเข้าถึงได้ เนื่องจากยังไม่ได้ตรวจสอบความถูกต้องของบัญชีผู้ใช้นี้</label>
+        <name>Revoke_not_validated</name>
+    </customLabels>
+    <customLabels>
+        <label>โปรดเลือกหน้าที่คุณต้องการตรวจสอบความถูกต้อง</label>
+        <name>SELECT_A_PAGE</name>
+    </customLabels>
+    <customLabels>
+        <label>Salesforce for Twitter และ Facebook: ตอบกลับ</label>
+        <name>SEND_TWEET_TITLE</name>
+    </customLabels>
+    <customLabels>
+        <label>URL ไซต์ภายนอกของบทความ</label>
+        <name>SETUP_ARTICLE_SITE_URL</name>
+    </customLabels>
+    <customLabels>
+        <label>การตั้งค่าการรวมฐานความรู้</label>
+        <name>SETUP_ARTICLE_TITLE</name>
+    </customLabels>
+    <customLabels>
+        <label>คีย์ Api ของ Bit.ly</label>
+        <name>SETUP_BITLY_KEY</name>
+    </customLabels>
+    <customLabels>
+        <label>การตั้งค่า Bit.ly</label>
+        <name>SETUP_BITLY_TITLE</name>
+    </customLabels>
+    <customLabels>
+        <label>ผู้ใช้ Bit.ly</label>
+        <name>SETUP_BITLY_USER</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SETUP_FACEBOOK_ID --></label>
+        <name>SETUP_FACEBOOK_ID</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SETUP_FACEBOOK_SECRET --></label>
+        <name>SETUP_FACEBOOK_SECRET</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SETUP_FCBK_APP_TITLE --></label>
+        <name>SETUP_FCBK_APP_TITLE</name>
+    </customLabels>
+    <customLabels>
+        <label>แอพพลิเคชัน Klout</label>
+        <name>SETUP_KLOUT_APP</name>
+    </customLabels>
+    <customLabels>
+        <label>ไอคอน Klout</label>
+        <name>SETUP_KLOUT_ICON</name>
+    </customLabels>
+    <customLabels>
+        <label>คีย์ของ Klout</label>
+        <name>SETUP_KLOUT_KEY</name>
+    </customLabels>
+    <customLabels>
+        <label>การตั้งค่า Klout</label>
+        <name>SETUP_KLOUT_TITLE</name>
+    </customLabels>
+    <customLabels>
+        <label>ชื่อเซิร์ฟเวอร์</label>
+        <name>SETUP_SERVER_NAME</name>
+    </customLabels>
+    <customLabels>
+        <label>Salesforce for Social Media: ตั้งค่า</label>
+        <name>SETUP_TITLE</name>
+    </customLabels>
+    <customLabels>
+        <label>&lt;h1&gt;เพิ่มเริ่มใช้งานที่นี่?&lt;/h1&gt; &lt;br /&gt;
+คุณจะต้องตั้งค่าผู้เผยแพร่เครือข่ายสังคมของคุณเพื่อเริ่มต้นใช้งาน 
+&lt;a href=&quot;{0}&quot;&gt;ไปที่การตั้งค่าเครือข่ายสังคมเดี๋ยวนี้&lt;/a&gt;</label>
+        <name>SETUP_WARNING_MESSAGE</name>
+    </customLabels>
+    <customLabels>
+        <label>เกี่ยวกับ</label>
+        <name>SOCIAL_SETUP_ABOUT</name>
+    </customLabels>
+    <customLabels>
+        <label>ขั้นสูง</label>
+        <name>SOCIAL_SETUP_ADVANCED</name>
+    </customLabels>
+    <customLabels>
+        <label>คำอธิบาย:</label>
+        <name>SOCIAL_SETUP_DESCRIPTION</name>
+    </customLabels>
+    <customLabels>
+        <label>ข้อผิดพลาด : คุณต้องป้อนค่า</label>
+        <name>SOCIAL_SETUP_ERROR</name>
+    </customLabels>
+    <customLabels>
+        <label>แฟ้มบันทึก Facebook</label>
+        <name>SOCIAL_SETUP_FACEBOOK_LOG</name>
+    </customLabels>
+    <customLabels>
+        <label>RSS Feed จาก Facebook</label>
+        <name>SOCIAL_SETUP_FACEBOOK_RSS</name>
+    </customLabels>
+    <customLabels>
+        <label>ลิงก์ไปยังไซต์ของแอพพลิเคชัน</label>
+        <name>SOCIAL_SETUP_LINK</name>
+    </customLabels>
+    <customLabels>
+        <label>วันที่ของแฟ้มบันทึก</label>
+        <name>SOCIAL_SETUP_LOG_DAY</name>
+    </customLabels>
+    <customLabels>
+        <label>เวลาของของแฟ้มบันทึก</label>
+        <name>SOCIAL_SETUP_LOG_TIME</name>
+    </customLabels>
+    <customLabels>
+        <label>วันที่ของ RSS</label>
+        <name>SOCIAL_SETUP_RSS_DATE</name>
+    </customLabels>
+    <customLabels>
+        <label>ชื่อ RSS</label>
+        <name>SOCIAL_SETUP_RSS_NAME</name>
+    </customLabels>
+    <customLabels>
+        <label>เชื่อมต่อ Salesforce CRM ของคุณกับช่องทางบนเครือข่ายสังคม เช่น Twitter และ Facebook คุณสามารถตรวจสอบข้อมูลของคุณที่หลงเหลืออยู่บนโลกออนไลน์ เชื่อมโยงกับลูกค้า โฆษณาแบรนด์ของคุณ และวิเคราะห์ผลกระทบต่อสังคมของคุณ ทั้งหมดนี้ได้โดยตรงจาก Salesforce.com!</label>
+        <name>SOCIAL_SETUP_TEXT</name>
+    </customLabels>
+    <customLabels>
+        <label>Salesforce สำหรับ Twitter และ Facebook</label>
+        <name>SOCIAL_SETUP_TITLE</name>
+    </customLabels>
+    <customLabels>
+        <label>คำสำคัญของ Twitter</label>
+        <name>SOCIAL_SETUP_TWITTER_KEYWORDS</name>
+    </customLabels>
+    <customLabels>
+        <label>แฟ้มบันทึก Twitter</label>
+        <name>SOCIAL_SETUP_TWITTER_LOG</name>
+    </customLabels>
+    <customLabels>
+        <label>RSS Feed จาก Twitter</label>
+        <name>SOCIAL_SETUP_TWITTER_RSS</name>
+    </customLabels>
+    <customLabels>
+        <label>เวอร์ชัน:</label>
+        <name>SOCIAL_SETUP_VERSION</name>
+    </customLabels>
+    <customLabels>
+        <label>เปลี่ยนสถานะ - ผลลัพธ์</label>
+        <name>STATUS_CHANGED_RESULTS</name>
+    </customLabels>
+    <customLabels>
+        <label>บันทึก</label>
+        <name>Save</name>
+    </customLabels>
+    <customLabels>
+        <label>บันทึกการเปลี่ยนปลง</label>
+        <name>Save_changes</name>
+    </customLabels>
+    <customLabels>
+        <label>ค้นหาอีกครั้ง</label>
+        <name>Search_Again</name>
+    </customLabels>
+    <customLabels>
+        <label>คำสำคัญในการค้นหา</label>
+        <name>Search_Keywords</name>
+    </customLabels>
+    <customLabels>
+        <label>ผลลัพธ์การค้นหา</label>
+        <name>Search_Results</name>
+    </customLabels>
+    <customLabels>
+        <label>เรียกใช้การค้นหาที่เลือก</label>
+        <name>Search_more_tweets</name>
+    </customLabels>
+    <customLabels>
+        <label>การค้นหาด้วยคำสำคัญจะแสดงผลลัพธ์เป็นข้อความทวีตที่ตรงตามเกณฑ์ (ผลลัพธ์สูงสุด ±1500)</label>
+        <name>Search_text_1</name>
+    </customLabels>
+    <customLabels>
+        <label>การค้นหาบัญชีผู้ใช้ Twitter จะแสดงผลลัพธ์เป็นข้อความส่วนตัว, @การตอบกลับ และสถานะสำหรับบัญชีผู้ใช้ที่เลือก</label>
+        <name>Search_text_2</name>
+    </customLabels>
+    <customLabels>
+        <label>การดำเนินการนี้อาจใช้เวลานานสักครู่ โปรดรอจนกว่าจะดำเนินการเสร็จสิ้นแล้ว</label>
+        <name>Search_text_3</name>
+    </customLabels>
+    <customLabels>
+        <label>การค้นหาหน้าแฟนเพจของ Facebook จะให้ผลลัพธ์เป็นโพสต์และความคิดเห็นบนแฟนเพจของ Facebook ที่ได้รับอนุญาต</label>
+        <name>Search_text_4</name>
+    </customLabels>
+    <customLabels>
+        <label>เลือกแคมเปญ</label>
+        <name>Select_Campaign</name>
+    </customLabels>
+    <customLabels>
+        <label>โปรดเลือกแคมเปญก่อน</label>
+        <name>Select_Campaign_first</name>
+    </customLabels>
+    <customLabels>
+        <label>เลือกการค้นหาที่คุณต้องการ</label>
+        <name>Select_searches</name>
+    </customLabels>
+    <customLabels>
+        <label>เลือกแล้ว</label>
+        <name>Selected</name>
+    </customLabels>
+    <customLabels>
+        <label>แบ่งปัน</label>
+        <name>Send</name>
+    </customLabels>
+    <customLabels>
+        <label>โพสต์ไปยัง Facebook เป็น</label>
+        <name>Send_Facebook_As</name>
+    </customLabels>
+    <customLabels>
+        <label>โพสต์ไปยัง Twitter เป็น</label>
+        <name>Send_Tweet_As</name>
+    </customLabels>
+    <customLabels>
+        <label>ตอบกลับ</label>
+        <name>Send_a_Tweet</name>
+    </customLabels>
+    <customLabels>
+        <label>ส่งจากชื่อผู้ใช้</label>
+        <name>Send_using_username</name>
+    </customLabels>
+    <customLabels>
+        <label>รายละเอียดของโซลูชัน</label>
+        <name>Solution_Detail</name>
+    </customLabels>
+    <customLabels>
+        <label>ชื่อโซลูชัน</label>
+        <name>Solution_Name</name>
+    </customLabels>
+    <customLabels>
+        <label>อักขระ</label>
+        <name>SplashPage_Characters</name>
+    </customLabels>
+    <customLabels>
+        <label>ผู้เผยแพร่ในเครือข่ายสังคม</label>
+        <name>SplashPage_Title</name>
+    </customLabels>
+    <customLabels>
+        <label>เริ่มการค้นหา</label>
+        <name>Start_Search</name>
+    </customLabels>
+    <customLabels>
+        <label>หัวเรื่อง</label>
+        <name>Subject</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่พบการการสนทนาที่เลือก</label>
+        <name>TARGET_CONVERSATION_NOT_FOUND</name>
+    </customLabels>
+    <customLabels>
+        <label>รายการบันทึกการแก้ไขปัญหา</label>
+        <name>TROUBLESHOOTING_LOG</name>
+    </customLabels>
+    <customLabels>
+        <label>ส่วนการสลับ - เลือกเกณฑ์การค้นหา</label>
+        <name>TS_Choose_search_criteria</name>
+    </customLabels>
+    <customLabels>
+        <label>ส่วนการสลับ - ผลลัพธ์การค้นหา</label>
+        <name>TS_Search_Results</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการสร้างบนบัญชีผู้ใช้</label>
+        <name>TWITTER_ACCOUNT_CREATE</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการลบบนบัญชีผู้ใช้</label>
+        <name>TWITTER_ACCOUNT_DELETE</name>
+    </customLabels>
+    <customLabels>
+        <label>มีบัญชีผู้ใช้ Twitter ที่ใช้ชื่อผู้ใช้ Twitter นี้อยู่แล้ว</label>
+        <name>TWITTER_ACCOUNT_DUPLICATE_VALUE</name>
+    </customLabels>
+    <customLabels>
+        <label>บัญชีผู้ใช้สังคมออนไลน์</label>
+        <name>TWITTER_ACCOUNT_NAME</name>
+    </customLabels>
+    <customLabels>
+        <label>บัญชีผู้ใช้นี้ยังไม่ได้รับการตรวจสอบอย่างถูกต้อง</label>
+        <name>TWITTER_ACCOUNT_NOT_VALIDATED</name>
+    </customLabels>
+    <customLabels>
+        <label>บัญชีผู้ใช้ Twitter นี้ถูกระงับใช้ชั่วคราว</label>
+        <name>TWITTER_ACCOUNT_SUSPENDED</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการปรับปรุงบนบัญชีผู้ใช้</label>
+        <name>TWITTER_ACCOUNT_UPDATE</name>
+    </customLabels>
+    <customLabels>
+        <label>คุณได้เพิ่มผู้สนับสนุนนี้ใน {0} แล้ว</label>
+        <name>TWITTER_ADDCONTRIBUTOR_ADDED</name>
+    </customLabels>
+    <customLabels>
+        <label>ชื่อผู้ใช้ไม่ถูกต้อง</label>
+        <name>TWITTER_ADDCONTRIBUTOR_ERROR</name>
+    </customLabels>
+    <customLabels>
+        <label>เพิ่มแล้ว</label>
+        <name>TWITTER_ADDED</name>
+    </customLabels>
+    <customLabels>
+        <label>URL ถูกทำให้สั้นลงเรียบร้อยแล้ว</label>
+        <name>TWITTER_ALREADY_BITLY</name>
+    </customLabels>
+    <customLabels>
+        <label>ติดตามอยู่แล้ว</label>
+        <name>TWITTER_ALREADY_FOLLOWED</name>
+    </customLabels>
+    <customLabels>
+        <label>อยู่ในรายการของคุณอยู่แล้ว</label>
+        <name>TWITTER_ALREADY_IN_LIST</name>
+    </customLabels>
+    <customLabels>
+        <label>ถูกกำหนดให้แล้ว แต่มีอยู่แล้ว</label>
+        <name>TWITTER_ASSIGNED</name>
+    </customLabels>
+    <customLabels>
+        <label>ถูกกำหนดให้กับการสนทนา Twitter นี้แล้ว</label>
+        <name>TWITTER_ASSIGNED_CONVERSATION</name>
+    </customLabels>
+    <customLabels>
+        <label>A</label>
+        <name>TWITTER_A_HREF</name>
+    </customLabels>
+    <customLabels>
+        <label>นำข้อความทวีตที่เชื่อมโยงกับการสนทนานี้มาเพิ่มเติม</label>
+        <name>TWITTER_BRING_MORE</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการสร้างบนสมาชิกแคมเปญ</label>
+        <name>TWITTER_CAMPAIGNMEMBER_CREATE</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการลบบนสมาชิกแคมเปญ</label>
+        <name>TWITTER_CAMPAIGNMEMBER_DELETE</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการปรับปรุงบนสมาชิกแคมเปญ</label>
+        <name>TWITTER_CAMPAIGNMEMBER_UPDATE</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการสร้างบนแคมเปญ</label>
+        <name>TWITTER_CAMPAIGN_CREATE</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการลบบนแคมเปญ</label>
+        <name>TWITTER_CAMPAIGN_DELETE</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการปรับปรุงบนแคมเปญ</label>
+        <name>TWITTER_CAMPAIGN_UPDATE</name>
+    </customLabels>
+    <customLabels>
+        <label>กำหนดโซลูชันไปยังการสนทนานี้เรียบร้อยแล้ว</label>
+        <name>TWITTER_CANCREATED_SOLUTION</name>
+    </customLabels>
+    <customLabels>
+        <label>คุณไม่สามารถสร้าง {0} ได้ โปรดติดต่อผู้ดูแลระบบ Salesforce ของคุณเพื่อขอรับความช่วยเหลือ</label>
+        <name>TWITTER_CANT_CREATE_OBJECT</name>
+    </customLabels>
+    <customLabels>
+        <label>กำหนดความคิดเห็นของเคสไปยังการสนทนานี้เรียบร้อยแล้ว</label>
+        <name>TWITTER_CASECOMMENT_CANTCREATED</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการสร้างบนความคิดเห็นของเคส</label>
+        <name>TWITTER_CASECOMMENT_CREATE</name>
+    </customLabels>
+    <customLabels>
+        <label>สร้างความคิดเห็นของเคสแล้ว</label>
+        <name>TWITTER_CASECOMMENT_CREATED</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการลบบนความคิดเห็นของเคส</label>
+        <name>TWITTER_CASECOMMENT_DELETE</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการปรับปรุงบนความคิดเห็นของเคส</label>
+        <name>TWITTER_CASECOMMENT_UPDATE</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการสร้างบนโซลูชันของเคส</label>
+        <name>TWITTER_CASESOLUTION_CREATE</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการลบบนโซลูชันของเคส</label>
+        <name>TWITTER_CASESOLUTION_DELETE</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการปรับปรุงบนโซลูชันของเคส</label>
+        <name>TWITTER_CASESOLUTION_UPDATE</name>
+    </customLabels>
+    <customLabels>
+        <label>กำหนดเคสไปยังการสนทนานี้เรียบร้อยแล้ว</label>
+        <name>TWITTER_CASE_CANTCREATED</name>
+    </customLabels>
+    <customLabels>
+        <label>ปิดแล้ว</label>
+        <name>TWITTER_CASE_CLOSED</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการสร้างบนเคส</label>
+        <name>TWITTER_CASE_CREATE</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการลบบนเคส</label>
+        <name>TWITTER_CASE_DELETE</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการปรับปรุงบนเคส</label>
+        <name>TWITTER_CASE_UPDATE</name>
+    </customLabels>
+    <customLabels>
+        <label>ได้สร้างการสนทนานี้</label>
+        <name>TWITTER_CHATTER_POST_HEADER</name>
+    </customLabels>
+    <customLabels>
+        <label>การตอบกลับใน Chatter จะไม่ถูกโพสต์ไปยัง Twitter อีกครั้ง</label>
+        <name>TWITTER_CHATTER_POST_WARNING</name>
+    </customLabels>
+    <customLabels>
+        <label>คลิกที่นี่เพื่อติดตามผู้ใช้</label>
+        <name>TWITTER_CLICK_FOLLOW</name>
+    </customLabels>
+    <customLabels>
+        <label>เกิดข้อผิดพลาดในการเชื่อมต่อกับ Twitter ข้อมูลประจำตัวของคุณอาจไม่ถูกต้อง บริการอาจออฟไลน์ หรือคุณอาจส่งการร้องขอมากเกินไป</label>
+        <name>TWITTER_CONN_ERROR</name>
+    </customLabels>
+    <customLabels>
+        <label>คุณไม่มีสิทธิ์ในการเข้าถึงผู้ติดต่อนี้</label>
+        <name>TWITTER_CONTACT_ACCESS</name>
+    </customLabels>
+    <customLabels>
+        <label>กำหนดผู้ติดต่อไปยังการสนทนานี้เรียบร้อยแล้ว</label>
+        <name>TWITTER_CONTACT_ASSIGNED</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการสร้างบนผู้ติดต่อ</label>
+        <name>TWITTER_CONTACT_CREATE</name>
+    </customLabels>
+    <customLabels>
+        <label>สร้างแล้ว</label>
+        <name>TWITTER_CONTACT_CREATED</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการลบบนผู้ติดต่อ</label>
+        <name>TWITTER_CONTACT_DELETE</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่พบผู้ติดต่อหรือลีด</label>
+        <name>TWITTER_CONTACT_LEAD_NOT_FOUND</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการปรับปรุงบนผู้ติดต่อ</label>
+        <name>TWITTER_CONTACT_UPDATE</name>
+    </customLabels>
+    <customLabels>
+        <label>คำเตือน: มีผู้ติดต่อนี้อยู่แล้ว</label>
+        <name>TWITTER_CONTACT_WARNING</name>
+    </customLabels>
+    <customLabels>
+        <label>การสนทนา</label>
+        <name>TWITTER_CONVERSATION</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการสร้างบนการสนทนาของ Twitter</label>
+        <name>TWITTER_CONVERSATION_CREATE</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการลบบนการสนทนาของ Twitter</label>
+        <name>TWITTER_CONVERSATION_DELETE</name>
+    </customLabels>
+    <customLabels>
+        <label>มีการสนทนานี้อยู่แล้ว</label>
+        <name>TWITTER_CONVERSATION_EXISTS</name>
+    </customLabels>
+    <customLabels>
+        <label>การสนทนานี้ไม่ใช่การตอบกลับไปยังข้อความทวีต คุณไม่สามารถค้นหาการตอบกลับไปยังผู้ใช้ได้</label>
+        <name>TWITTER_CONVERSATION_NOT_REPLY</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการปรับปรุงบนการสนทนาของ Twitter</label>
+        <name>TWITTER_CONVERSATION_UPDATE</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่พบการสนทนานี้ รหัสประจำ</label>
+        <name>TWITTER_CONV_NOT_FOUND</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่พบการสนทนา</label>
+        <name>TWITTER_CONV_NOT_FOUND_TITLE</name>
+    </customLabels>
+    <customLabels>
+        <label>สร้างแล้ว</label>
+        <name>TWITTER_CREATED</name>
+    </customLabels>
+    <customLabels>
+        <label>ถูกสร้างไว้สำหรับการสนทนา Twitter นี้แล้ว</label>
+        <name>TWITTER_CREATED_CONVERSATION</name>
+    </customLabels>
+    <customLabels>
+        <label>ถูกสร้างไว้สำหรับ</label>
+        <name>TWITTER_CREATED_FOR</name>
+    </customLabels>
+    <customLabels>
+        <label>สร้างผู้ติดต่อ</label>
+        <name>TWITTER_CREATE_CONTACT</name>
+    </customLabels>
+    <customLabels>
+        <label>สร้างลีด</label>
+        <name>TWITTER_CREATE_LEAD</name>
+    </customLabels>
+    <customLabels>
+        <label>สร้างการค้นหาใหม่</label>
+        <name>TWITTER_CREATE_SEARCHES</name>
+    </customLabels>
+    <customLabels>
+        <label>แดชบอร์ดและการวิเคราะห์</label>
+        <name>TWITTER_DASHBOARD</name>
+    </customLabels>
+    <customLabels>
+        <label>กำลังลบการสนทนาที่ละเว้นไว้</label>
+        <name>TWITTER_DELETED_RECORDS</name>
+    </customLabels>
+    <customLabels>
+        <label>ลบการสนทนาที่ละเว้นไว้</label>
+        <name>TWITTER_DELETE_IGNORED</name>
+    </customLabels>
+    <customLabels>
+        <label>ลบการสนทนาที่ละเว้นไว้เรียบร้อยแล้ว</label>
+        <name>TWITTER_DELETE_IGNORED_SUCCESSFULLY</name>
+    </customLabels>
+    <customLabels>
+        <label>กำลังลบการสนทนาที่ละเว้นไว้</label>
+        <name>TWITTER_DELETING_IGNORED_CONVERSATIONS</name>
+    </customLabels>
+    <customLabels>
+        <label>ข้อความส่วนตัว</label>
+        <name>TWITTER_DIRECTMESSAGE</name>
+    </customLabels>
+    <customLabels>
+        <label>ข้อผิดพลาด</label>
+        <name>TWITTER_ERROR</name>
+    </customLabels>
+    <customLabels>
+        <label>เกิดข้อผิดพลาดขึ้นขณะเชื่อมต่อกับ Twitter โปรดลองอีกครั้ง</label>
+        <name>TWITTER_ERROR_CONNECT</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่สามารถติดตามผู้ใช้ได้: คุณไม่สามารถติดตามตัวคุณเองได้</label>
+        <name>TWITTER_ERROR_FOLLOW_YOURSELF</name>
+    </customLabels>
+    <customLabels>
+        <label>รหัสประจำการสนทนาไม่ถูกต้อง</label>
+        <name>TWITTER_ERROR_INVALID_ID</name>
+    </customLabels>
+    <customLabels>
+        <label>รายการบันทึกการแก้ไขปัญหาของ Twitter</label>
+        <name>TWITTER_ERROR_LOG</name>
+    </customLabels>
+    <customLabels>
+        <label>มีข้อผิดพลาดที่ไม่คาดคิดเกิดขึ้น โปรดลองใหม่อีกครั้ง</label>
+        <name>TWITTER_ERROR_OCCURRED</name>
+    </customLabels>
+    <customLabels>
+        <label>รหัสข้อผิดพลาดของ Twitter: {1} ข้อความแสดงข้อผิดพลาดของ Twitter: {0}.</label>
+        <name>TWITTER_ERROR_OCCURRED_ON_ACTION</name>
+    </customLabels>
+    <customLabels>
+        <label>ความคิดเห็นของเคสที่ไม่มีพาเรนต์</label>
+        <name>TWITTER_EXCEPTION_CASECOMMENT_WO_PARENT</name>
+    </customLabels>
+    <customLabels>
+        <label>เคสที่สร้างขึ้นโดยไม่มีผู้ติดต่อสำหรับชื่อผู้ใช้นี้</label>
+        <name>TWITTER_EXCEPTION_CASE_WO_CONTACT</name>
+    </customLabels>
+    <customLabels>
+        <label>เคสนี้ไม่มีการสนทนา</label>
+        <name>TWITTER_EXCEPTION_CASE_WO_CONVERSATION</name>
+    </customLabels>
+    <customLabels>
+        <label>การสนทนาต้องไม่มีค่าเป็น Null</label>
+        <name>TWITTER_EXCEPTION_CONVERSATION_CANNOT_BE_NULL</name>
+    </customLabels>
+    <customLabels>
+        <label>การสนทนานี้มีเคสอยู่แล้ว</label>
+        <name>TWITTER_EXCEPTION_CONVERSATION_HAS_CASE</name>
+    </customLabels>
+    <customLabels>
+        <label>ยังไม่ได้ระบุรหัสประจำ Twitter</label>
+        <name>TWITTER_EXCEPTION_ID_NOT_SPECIFIED</name>
+    </customLabels>
+    <customLabels>
+        <label>การค้นหาภายนอกจากบัญชีผู้ใช้เสร็จสมบูรณ์แล้ว รหัสประจำบัญชีผู้ใช้:</label>
+        <name>TWITTER_EXTERNAL_ACCOUNT_SEARCH_FINISHED</name>
+    </customLabels>
+    <customLabels>
+        <label>การค้นหาภายนอกจากคำสำคัญเสร็จสมบูรณ์แล้ว รหัสประจำการค้นหา:</label>
+        <name>TWITTER_EXTERNAL_KEYWORD_SEARCH_FINISHED</name>
+    </customLabels>
+    <customLabels>
+        <label>คุณไม่มีสิทธิ์ในการเข้าถึงฟิลด์ต่อไปนี้: {0} โปรดติดต่อผู้ดูแลระบบ Salesforce ของคุณเพื่อขอรับความช่วยเหลือ</label>
+        <name>TWITTER_FIELD_NOT_ACCESSIBLE</name>
+    </customLabels>
+    <customLabels>
+        <label>คุณไม่สามารถสร้างฟิลด์ต่อไปนี้ได้: {0} โปรดติดต่อผู้ดูแลระบบ Salesforce ของคุณเพื่อขอรับความช่วยเหลือ</label>
+        <name>TWITTER_FIELD_NOT_CREATEABLE</name>
+    </customLabels>
+    <customLabels>
+        <label>คุณไม่สามารถปรับปรุงฟิลด์ต่อไปนี้ได้: {0} โปรดติดต่อผู้ดูแลระบบ Salesforce ของคุณเพื่อขอรับความช่วยเหลือ</label>
+        <name>TWITTER_FIELD_NOT_UPDATEABLE</name>
+    </customLabels>
+    <customLabels>
+        <label>คุณได้ติดตามผู้ติดต่อของลูกค้า ({0}) บน Twitter อยู่แล้ว</label>
+        <name>TWITTER_FOLLOWS</name>
+    </customLabels>
+    <customLabels>
+        <label>บน Twitter (คืนค่าการติดตามแล้ว)</label>
+        <name>TWITTER_FOLLOW_RESTORED</name>
+    </customLabels>
+    <customLabels>
+        <label>มีข้อผิดพลาดเกิดขึ้นขณะพยายามเรียกข้อมูลสำหรับผู้ใช้ Twitter ต่อไปนี้:</label>
+        <name>TWITTER_GET_AUTHOR_INFO_ERROR</name>
+    </customLabels>
+    <customLabels>
+        <label>รับการสนทนา</label>
+        <name>TWITTER_GET_TWEETS</name>
+    </customLabels>
+    <customLabels>
+        <label>ลิงก์</label>
+        <name>TWITTER_GET_USERNAME_LINK</name>
+    </customLabels>
+    <customLabels>
+        <label>ชื่อผู้ใช้ในการรับ Twitter</label>
+        <name>TWITTER_GET_USERNAME_TITLE</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่มีการสนทนาที่ละเว้นไว้ที่จะลบ</label>
+        <name>TWITTER_IGNORED_DELETED</name>
+    </customLabels>
+    <customLabels>
+        <label>ข้อความส่วนตัวขาเข้า:</label>
+        <name>TWITTER_INBOUND_DM</name>
+    </customLabels>
+    <customLabels>
+        <label>ข้อความทวีตขาเข้า</label>
+        <name>TWITTER_INBOUND_TWEET</name>
+    </customLabels>
+    <customLabels>
+        <label>ข้อผิดพลาด : รหัสประจำที่ระบุไม่ถูกต้อง</label>
+        <name>TWITTER_INCORRECT_ID</name>
+    </customLabels>
+    <customLabels>
+        <label>แทรกข้อความ</label>
+        <name>TWITTER_INSERT_MSG</name>
+    </customLabels>
+    <customLabels>
+        <label>มีสิทธิในการใช้งานไม่เพียงพอ</label>
+        <name>TWITTER_INSUFFICIENT_PRIVILEGES</name>
+    </customLabels>
+    <customLabels>
+        <label>เกิดข้อผิดพลาดภายใน โปรดลองอีกครั้ง</label>
+        <name>TWITTER_INTERNAL_ERROR</name>
+    </customLabels>
+    <customLabels>
+        <label>ลีด</label>
+        <name>TWITTER_LEAD</name>
+    </customLabels>
+    <customLabels>
+        <label>คุณไม่มีสิทธิ์ในการเข้าถึงลีดนี้</label>
+        <name>TWITTER_LEAD_ACCESS</name>
+    </customLabels>
+    <customLabels>
+        <label>กำหนดลีดที่มีอยู่เรียบร้อยแล้ว</label>
+        <name>TWITTER_LEAD_ASSIGNED</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการสร้างบนลีด</label>
+        <name>TWITTER_LEAD_CREATE</name>
+    </customLabels>
+    <customLabels>
+        <label>สร้างลีดแล้ว</label>
+        <name>TWITTER_LEAD_CREATED</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการลบบนลีด</label>
+        <name>TWITTER_LEAD_DELETE</name>
+    </customLabels>
+    <customLabels>
+        <label>กำหนดลีดไปยังการสนทนานี้เรียบร้อยแล้ว</label>
+        <name>TWITTER_LEAD_EXIST</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่ได้สร้างผู้ติดต่อสำหรับชื่อผู้ใช้ Twitter นี้ เนื่องจากมีการกำหนดลีดไปยังชื่อผู้ใช้นี้อยู่แล้ว</label>
+        <name>TWITTER_LEAD_EXISTED</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่ได้สร้างลีดสำหรับชื่อผู้ใช้ Twitter นี้ เนื่องจากมีผู้ติดต่ออยู่แล้ว</label>
+        <name>TWITTER_LEAD_HAS_CONTACT</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการปรับปรุงบนลีด</label>
+        <name>TWITTER_LEAD_UPDATE</name>
+    </customLabels>
+    <customLabels>
+        <label>คำเตือน: มีลีดนี้อยู่แล้ว</label>
+        <name>TWITTER_LEAD_WARNING</name>
+    </customLabels>
+    <customLabels>
+        <label>เพื่อให้สามารถใช้งานตัวทำรายการบันทึกได้ องค์กรของคุณต้องมีโฟลเดอร์ต่อไปนี้อยู่: {0}</label>
+        <name>TWITTER_LOGGER_MISSING_FOLDER_ERROR</name>
+    </customLabels>
+    <customLabels>
+        <label>การค้นหาจากบัญชีผู้ใช้ด้วยตนเองเสร็จสมบูรณ์แล้ว รหัสประจำบัญชีผู้ใช้:</label>
+        <name>TWITTER_MANUAL_ACCOUNT_SEARCH_FINISHED</name>
+    </customLabels>
+    <customLabels>
+        <label>การค้นหาจากคำสำคัญด้วยตนเองเสร็จสมบูรณ์แล้ว รหัสประจำการค้นหา:</label>
+        <name>TWITTER_MANUAL_KEYWORD_SEARCH_FINISHED</name>
+    </customLabels>
+    <customLabels>
+        <label>ทำเครื่องหมายในกล่องกาเครื่องหมายอย่างน้อยหนึ่งที่ แล้วคลิกที่ปุ่มบันทึกการเปลี่ยนแปลง</label>
+        <name>TWITTER_MARK_AT_LEAST_ONE</name>
+    </customLabels>
+    <customLabels>
+        <label>โปรดป้อนข้อความสูงสุด 140 อักขระ</label>
+        <name>TWITTER_MAXIMUM_SIZE</name>
+    </customLabels>
+    <customLabels>
+        <label>ส่งข้อความเรียบร้อยแล้ว</label>
+        <name>TWITTER_MESSAGE_SENT</name>
+    </customLabels>
+    <customLabels>
+        <label>โปรดป้อนอักขระอย่างน้อย 1 ตัว</label>
+        <name>TWITTER_MINIMUM_SIZE</name>
+    </customLabels>
+    <customLabels>
+        <label>บัญชีผู้ใช้ Twitter ใหม่</label>
+        <name>TWITTER_NEW_TWITTER_ACCOUNT</name>
+    </customLabels>
+    <customLabels>
+        <label>การค้นหา Twitter ใหม่</label>
+        <name>TWITTER_NEW_TWITTER_SEARCH</name>
+    </customLabels>
+    <customLabels>
+        <label>คุณไม่สามารถส่งข้อความส่วนตัวถึงผู้ใช้ที่ไม่ได้ติดตามคุณได้</label>
+        <name>TWITTER_NOT_FOLLOWING</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่พบ</label>
+        <name>TWITTER_NOT_FOUND</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่พบผู้ติดต่อหรือลีดสำหรับรหัสประจำนี้: {0}</label>
+        <name>TWITTER_NO_CONTACT_LEAD_FOUND</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่พบการสนทนาสำหรับรหัสประจำสถานะนี้: {0}</label>
+        <name>TWITTER_NO_CONVERSATION_FOUND</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่มีการร้องเหลืออยู่สำหรับสภาพแวดล้อมในการปฏิบัติการนี้</label>
+        <name>TWITTER_NO_MORE_CALLOUTS_ERROR</name>
+    </customLabels>
+    <customLabels>
+        <label>คำเตือน: การค้นหาสำเร็จแล้ว แต่ไม่มีคำบรรยายภาพเพิ่มเติมที่จะรับหน้าทั้งหมดได้</label>
+        <name>TWITTER_NO_MORE_CALLOUTS_WARNING</name>
+    </customLabels>
+    <customLabels>
+        <label>บัญชีผู้ใช้ที่คุณตรวจสอบความถูกต้องใน Twitter ไม่ตรงกันกับบัญชีผู้ใช้ที่คุณเลือกบน Salesforce</label>
+        <name>TWITTER_OAUTH_DIFF_USERNAMES</name>
+    </customLabels>
+    <customLabels>
+        <label>คุณไม่มีสิทธิ์ในการเข้าถึงอ็อบเจ็กต์ต่อไปนี้: {0} โปรดติดต่อผู้ดูแลระบบ Salesforce ของคุณเพื่อขอรับความช่วยเหลือ</label>
+        <name>TWITTER_OBJECT_NOT_ACCESSIBLE</name>
+    </customLabels>
+    <customLabels>
+        <label>คุณไม่สามารถสร้างออบเจ็กต์ต่อไปนี้ได้: {0} โปรดติดต่อผู้ดูแลระบบ Salesforce ของคุณเพื่อขอรับความช่วยเหลือ</label>
+        <name>TWITTER_OBJECT_NOT_CREATEABLE</name>
+    </customLabels>
+    <customLabels>
+        <label>คุณไม่สามารถลบออบเจ็กต์ต่อไปนี้ได้: {0} โปรดติดต่อผู้ดูแลระบบ Salesforce ของคุณเพื่อขอรับความช่วยเหลือ</label>
+        <name>TWITTER_OBJECT_NOT_DELETABLE</name>
+    </customLabels>
+    <customLabels>
+        <label>คุณไม่สามารถปรับปรุงออบเจ็กต์ต่อไปนี้ได้: {0} โปรดติดต่อผู้ดูแลระบบ Salesforce ของคุณเพื่อขอรับความช่วยเหลือ</label>
+        <name>TWITTER_OBJECT_NOT_UPDATEABLE</name>
+    </customLabels>
+    <customLabels>
+        <label>ข้อผิดพลาด : มีบัญชีผู้ใช้มากเกินไป  สามารถติดตามผู้ติดต่อ/ลีดได้สูงสุด 10 บัญชีผู้ใช้เท่านั้น</label>
+        <name>TWITTER_ONLY10_ACCOUNTS</name>
+    </customLabels>
+    <customLabels>
+        <label>บน Twitter</label>
+        <name>TWITTER_ON_TWITTER</name>
+    </customLabels>
+    <customLabels>
+        <label>ข้อความส่วนตัวขาออก</label>
+        <name>TWITTER_OUTBOUND_DIRECTMESSAGE</name>
+    </customLabels>
+    <customLabels>
+        <label>ข้อความส่วนตัวขาออก:</label>
+        <name>TWITTER_OUTBOUND_DM</name>
+    </customLabels>
+    <customLabels>
+        <label>การตอบกลับขาออก</label>
+        <name>TWITTER_OUTBOUND_REPLY</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่สามารถสร้างบัญชีผู้ใช้ประเภทบุคคลสำหรับการสนทนานี้ เนื่องจากมีการกำหนดผู้ติดต่อไปยังการสนทนานี้เรียบร้อยแล้ว</label>
+        <name>TWITTER_PACCOUNT_ASSIGNED</name>
+    </customLabels>
+    <customLabels>
+        <label>เลิกใช้แล้ว ดูข้อความวิธีใช้</label>
+        <name>TWITTER_PASSWORDS_DEPRECATED</name>
+    </customLabels>
+    <customLabels>
+        <label>Feed ของฉัน</label>
+        <name>TWITTER_POST_TO_MY_FEED</name>
+    </customLabels>
+    <customLabels>
+        <label>โพสต์ข้อความทวีต</label>
+        <name>TWITTER_POST_TWEET</name>
+    </customLabels>
+    <customLabels>
+        <label>ทรัพยากร</label>
+        <name>TWITTER_QUICK_LINKS</name>
+    </customLabels>
+    <customLabels>
+        <label>ลบออกจากรายชื่อผู้ติดตามแล้ว</label>
+        <name>TWITTER_REMOVED_FOLLOWERS</name>
+    </customLabels>
+    <customLabels>
+        <label>@การตอบกลับ</label>
+        <name>TWITTER_REPLY</name>
+    </customLabels>
+    <customLabels>
+        <label>การร้องขอไปยัง twitter ล้มเหลว</label>
+        <name>TWITTER_REQUEST_CONNECTION_ERROR</name>
+    </customLabels>
+    <customLabels>
+        <label>คุณต้องอนุญาตบัญชีผู้ใช้ Twitter หรือหน้าแฟนเพจของ Facebook ก่อนที่จะส่งข้อความ</label>
+        <name>TWITTER_REQUIRED_ACCOUNT</name>
+    </customLabels>
+    <customLabels>
+        <label>คุณต้องใส่ชื่อผู้ใช้ Twitter เพื่อส่งข้อความ</label>
+        <name>TWITTER_REQUIRED_USERNAME</name>
+    </customLabels>
+    <customLabels>
+        <label>ผลลัพธ์</label>
+        <name>TWITTER_RESULT</name>
+    </customLabels>
+    <customLabels>
+        <label>กลับไปที่หน้าก่อนหน้านี้</label>
+        <name>TWITTER_RETURN</name>
+    </customLabels>
+    <customLabels>
+        <label>การค้นหาจากบัญชีผู้ใช้ตามที่กำหนดเวลาไว้เสร็จสมบูรณ์แล้ว รหัสประจำบัญชีผู้ใช้:</label>
+        <name>TWITTER_SCHEDULED_ACCOUNT_SEARCH_FINISHED</name>
+    </customLabels>
+    <customLabels>
+        <label>การค้นหาจากคำสำคัญตามที่กำหนดเวลาไว้เสร็จสมบูรณ์แล้ว รหัสประจำการค้นหา:</label>
+        <name>TWITTER_SCHEDULED_KEYWORD_SEARCH_FINISHED</name>
+    </customLabels>
+    <customLabels>
+        <label>เปิดใช้งาน</label>
+        <name>TWITTER_SCHEDULER_PAGE_ACTIVATE</name>
+    </customLabels>
+    <customLabels>
+        <label>เรียกใช้ครั้งล่าสุด</label>
+        <name>TWITTER_SCHEDULER_PAGE_COLUMN_LAST_TIME_RUN</name>
+    </customLabels>
+    <customLabels>
+        <label>ชื่อ</label>
+        <name>TWITTER_SCHEDULER_PAGE_COLUMN_NAME</name>
+    </customLabels>
+    <customLabels>
+        <label>การร้องขอที่ใช้</label>
+        <name>TWITTER_SCHEDULER_PAGE_COLUMN_REQUESTS_USED</name>
+    </customLabels>
+    <customLabels>
+        <label>ผู้ใช้ที่กำลังเรียกใช้</label>
+        <name>TWITTER_SCHEDULER_PAGE_COLUMN_SEARCH_TERM</name>
+    </customLabels>
+    <customLabels>
+        <label>ช่วงเวลา</label>
+        <name>TWITTER_SCHEDULER_PAGE_COLUMN_TIME_INTERVAL</name>
+    </customLabels>
+    <customLabels>
+        <label>ปิดใช้งาน</label>
+        <name>TWITTER_SCHEDULER_PAGE_DEACTIVATE</name>
+    </customLabels>
+    <customLabels>
+        <label>การค้นหาตามกำหนดเวลา</label>
+        <name>TWITTER_SCHEDULER_PAGE_TITLE</name>
+    </customLabels>
+    <customLabels>
+        <label>การค้นหาบัญชีผู้ใช้ Twitter</label>
+        <name>TWITTER_SCHEDULER_PAGE_TITLE_ACCOUNT</name>
+    </customLabels>
+    <customLabels>
+        <label>ลบการสนทนาที่ละเว้นไว้</label>
+        <name>TWITTER_SCHEDULER_PAGE_TITLE_IGNORE</name>
+    </customLabels>
+    <customLabels>
+        <label>การค้นหาด้วยคำสำคัญใน Twitter</label>
+        <name>TWITTER_SCHEDULER_PAGE_TITLE_KEY</name>
+    </customLabels>
+    <customLabels>
+        <label>คุณมีจำนวนการร้องขอตามกำหนดเวลาในจำนวนจำกัด เครือข่ายสังคมของ Salesforce กำลังใช้งานการร้องขออยู่ในขณะนี้จำนวน {0} รายการ</label>
+        <name>TWITTER_SCHEDULER_USED_TASKS</name>
+    </customLabels>
+    <customLabels>
+        <label>การค้นหากำหนดเวลา</label>
+        <name>TWITTER_SCHEDULE_SEARCHES</name>
+    </customLabels>
+    <customLabels>
+        <label>สำหรับชื่อผู้ใช้ Twitter นี้</label>
+        <name>TWITTER_SCREENNAME</name>
+    </customLabels>
+    <customLabels>
+        <label>ลีดสำหรับชื่อผู้ใช้ Twitter นี้</label>
+        <name>TWITTER_SCREENNAME_HREF</name>
+    </customLabels>
+    <customLabels>
+        <label>มีข้อผิดพลาดเกิดขึ้นสำหรับการค้นหานี้: {0}</label>
+        <name>TWITTER_SEARCH_CONNECTION_ERROR</name>
+    </customLabels>
+    <customLabels>
+        <label>ยังไม่ได้จัดกำหนดเวลาการค้นหา มีข้อผิดพลาดเกิดขึ้น:</label>
+        <name>TWITTER_SEARCH_NOT_SCHEDULED</name>
+    </customLabels>
+    <customLabels>
+        <label>ยังไม่ได้ยกเลิกการจัดกำหนดเวลาการค้นหา  มีข้อผิดพลาดเกิดขึ้น:</label>
+        <name>TWITTER_SEARCH_NOT_UNSCHEDULED</name>
+    </customLabels>
+    <customLabels>
+        <label>ตัวดำเนินการค้นหา Twitter</label>
+        <name>TWITTER_SEARCH_OPERATORS</name>
+    </customLabels>
+    <customLabels>
+        <label>จัดกำหนดเวลาการค้นหาเรียบร้อยแล้ว:</label>
+        <name>TWITTER_SEARCH_SCHEDULED</name>
+    </customLabels>
+    <customLabels>
+        <label>ยกเลิกการจัดกำหนดเวลาการค้นหาเรียบร้อยแล้ว:</label>
+        <name>TWITTER_SEARCH_UNSCHEDULED</name>
+    </customLabels>
+    <customLabels>
+        <label>-- เลือก --</label>
+        <name>TWITTER_SELECT</name>
+    </customLabels>
+    <customLabels>
+        <label>โปรดเลือกเร็กคอร์ดอย่างน้อยหนึ่งเร็กคอร์ด</label>
+        <name>TWITTER_SELECT_A_RECORD</name>
+    </customLabels>
+    <customLabels>
+        <label>โปรดเลือกเร็กคอร์ดไม่เกิน {0} เร็กคอร์ด</label>
+        <name>TWITTER_SELECT_LESS_RECORD</name>
+    </customLabels>
+    <customLabels>
+        <label>โปรดเลือกเพียงเร็กคอร์ดเดียว</label>
+        <name>TWITTER_SELECT_ONLY_RECORD</name>
+    </customLabels>
+    <customLabels>
+        <label>ส่งข้อความส่วนตัวถึง</label>
+        <name>TWITTER_SEND_DM</name>
+    </customLabels>
+    <customLabels>
+        <label>จัดการบัญชีผู้ใช้ Twitter</label>
+        <name>TWITTER_SETUP_ACCOUNT</name>
+    </customLabels>
+    <customLabels>
+        <label>คำแนะนำในการตั้งค่าการตรวจทาน</label>
+        <name>TWITTER_SETUP_GUIDE</name>
+    </customLabels>
+    <customLabels>
+        <label>URL ที่คุณพยายามทำให้สั้นลงไม่ถูกต้อง โปรดลองอีกครั้ง</label>
+        <name>TWITTER_SHORTEN_URL</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการสร้างบนโซลูชัน</label>
+        <name>TWITTER_SOLUTION_CREATE</name>
+    </customLabels>
+    <customLabels>
+        <label>สร้างโซลูชันแล้ว</label>
+        <name>TWITTER_SOLUTION_CREATED</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการลบบนโซลูชัน</label>
+        <name>TWITTER_SOLUTION_DELETE</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการปรับปรุงบนโซลูชัน</label>
+        <name>TWITTER_SOLUTION_UPDATE</name>
+    </customLabels>
+    <customLabels>
+        <label>เริ่มต้นใช้งาน</label>
+        <name>TWITTER_START_NOW</name>
+    </customLabels>
+    <customLabels>
+        <label>&lt;p&gt;
+					&lt;strong&gt;ผู้คนหลายล้านคนกำลังแบ่งปันความคิดเห็น ถามคำถาม และมองหาความช่วยเหลือโดยใช้ Twitter 
+					ดูว่าผู้คนกำลังพูดถึงเรื่องอะไรกันอยู่ในขณะนี้...&lt;/strong&gt;
+					&lt;/p&gt;
+					&lt;ul&gt;
+						&lt;li&gt;&lt;strong&gt;พวกลูกค้าพูดถึงธุรกิจของคุณว่าอย่างไรบ้าง?&lt;/strong&gt; พวกเขาพูดถึงธุรกิจของคุณในแง่บวกหรือแง่ลบ? &lt;/li&gt;
+						&lt;li&gt;&lt;strong&gt;ผู้ใช้กำลังมองหาบริการที่บริษัทของคุณจัดหาหรือเปล่า?&lt;/strong&gt;ใช้ Salesforce for Twitter เพื่อสร้างลีด! &lt;/li&gt;
+						&lt;li&gt;&lt;strong&gt;ผู้ใช้ต้องการความช่วยเหลือหรือไม่?&lt;/strong&gt;สร้างเคสจากข้อความทวีตเพื่อให้ตัวแทนที่สนับสนุนของคุณสามารถให้บริการกับคุณได้ดียิ่งขึ้น&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p&gt;
+					&lt;strong&gt;ต้องการทราบรายละเอียดเพิ่มเติมเกี่ยวกับ Twitter?&lt;/strong&gt;&lt;br/&gt;
+					คุณสามารถอ่านรายละเอียดได้ที่ &lt;a href=&quot;http://business.twitter.com&quot; target=&quot;_blank&quot;&gt;Twitter สำหรับธุรกิจ&lt;/a&gt;
+					&lt;/p&gt;</label>
+        <name>TWITTER_START_PAGE_TEXT</name>
+    </customLabels>
+    <customLabels>
+        <label>Salesforce for Social Media</label>
+        <name>TWITTER_START_PAGE_TITLE</name>
+    </customLabels>
+    <customLabels>
+        <label>สถานะประสิทธิภาพของTwitter</label>
+        <name>TWITTER_STATUS</name>
+    </customLabels>
+    <customLabels>
+        <label>คุณไม่ได้รับอนุญาตให้ดูสถานะก่อนหน้านี้</label>
+        <name>TWITTER_STATUSES_NOT_AUTHORIZED</name>
+    </customLabels>
+    <customLabels>
+        <label>ดำเนินการแล้ว</label>
+        <name>TWITTER_STATUS_ACTIONED</name>
+    </customLabels>
+    <customLabels>
+        <label>เปลี่ยนสถานะเรียบร้อยแล้ว</label>
+        <name>TWITTER_STATUS_CHANGED</name>
+    </customLabels>
+    <customLabels>
+        <label>เปลี่ยนสถานะของการสนทนานี้เป็น &quot;ละเว้นแล้ว&quot; เรียบร้อยแล้ว</label>
+        <name>TWITTER_STATUS_CHANGED_IGNORED</name>
+    </customLabels>
+    <customLabels>
+        <label>เปลี่ยนสถานะของการสนทนานี้เป็น &quot;แก้ปัญหาโดยกลุ่มผู้ใช้แล้ว&quot; เรียบร้อยแล้ว</label>
+        <name>TWITTER_STATUS_CHANGED_SOLVED</name>
+    </customLabels>
+    <customLabels>
+        <label>ละเว้นแล้ว</label>
+        <name>TWITTER_STATUS_IGNORED</name>
+    </customLabels>
+    <customLabels>
+        <label>ใหม่</label>
+        <name>TWITTER_STATUS_NEW</name>
+    </customLabels>
+    <customLabels>
+        <label>ทำเครื่องหมายการสนทนานี้เป็น &quot;แก้ปัญหาโดยกลุ่มผู้ใช้แล้ว&quot; เรียบร้อยแล้ว</label>
+        <name>TWITTER_STATUS_NOT_CHANGED_SOLVED</name>
+    </customLabels>
+    <customLabels>
+        <label>ทำเครื่องหมายเป็นตรวจทานแล้ว</label>
+        <name>TWITTER_STATUS_REVIEWED</name>
+    </customLabels>
+    <customLabels>
+        <label>แก้ปัญหาโดยกลุ่มผู้ใช้แล้ว</label>
+        <name>TWITTER_STATUS_SOLVED</name>
+    </customLabels>
+    <customLabels>
+        <label>ัอัพเดตสถานะเรียบร้อยแล้ว</label>
+        <name>TWITTER_STATUS_UPDATED</name>
+    </customLabels>
+    <customLabels>
+        <label>หยุดการลบ</label>
+        <name>TWITTER_STOP_DELETING</name>
+    </customLabels>
+    <customLabels>
+        <label>หยุดการค้นหา</label>
+        <name>TWITTER_STOP_SEARCH</name>
+    </customLabels>
+    <customLabels>
+        <label>สำเร็จ</label>
+        <name>TWITTER_SUCCESS</name>
+    </customLabels>
+    <customLabels>
+        <label>บัญชีผู้ใช้เป้าหมายนี้ถูกระงับใช้ชั่วคราวในขณะนี้</label>
+        <name>TWITTER_TARGETACCOUNT_SUSPENDED</name>
+    </customLabels>
+    <customLabels>
+        <label>สมาชิกแคมเปญ</label>
+        <name>TWITTER_TARGET_CAMPAIGNMEMBER</name>
+    </customLabels>
+    <customLabels>
+        <label>เคส</label>
+        <name>TWITTER_TARGET_CASE</name>
+    </customLabels>
+    <customLabels>
+        <label>ความคิดเห็นเกี่ยวกับเคส</label>
+        <name>TWITTER_TARGET_CASECOMMENT</name>
+    </customLabels>
+    <customLabels>
+        <label>ผู้ติดต่อ</label>
+        <name>TWITTER_TARGET_CONTACT</name>
+    </customLabels>
+    <customLabels>
+        <label>การสนทนา</label>
+        <name>TWITTER_TARGET_CONVERSATION</name>
+    </customLabels>
+    <customLabels>
+        <label>โซลูชัน</label>
+        <name>TWITTER_TARGET_SOLUTION</name>
+    </customLabels>
+    <customLabels>
+        <label>บัญชีผู้ใช้ Twitter</label>
+        <name>TWITTER_TARGET_TWITTERACCOUNT</name>
+    </customLabels>
+    <customLabels>
+        <label>เสร็จสมบูรณ์แล้ว</label>
+        <name>TWITTER_TASK_COMPLETED</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการสร้างบนงาน</label>
+        <name>TWITTER_TASK_CREATE</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการลบบนงาน</label>
+        <name>TWITTER_TASK_DELETE</name>
+    </customLabels>
+    <customLabels>
+        <label>ส่งความคิดเห็นไปที่</label>
+        <name>TWITTER_TASK_FCBK_COMMENT</name>
+    </customLabels>
+    <customLabels>
+        <label>ยังไม่ได้จัดกำหนดเวลาสำหรับงานนี้ มีข้อผิดพลาดเกิดขึ้น:</label>
+        <name>TWITTER_TASK_NOT_SCHEDULED</name>
+    </customLabels>
+    <customLabels>
+        <label>ยังไม่ได้ยกเลิกการจัดกำหนดเวลาสำหรับงานนี้ มีข้อผิดพลาดเกิดขึ้น:</label>
+        <name>TWITTER_TASK_NOT_UNSCHEDULED</name>
+    </customLabels>
+    <customLabels>
+        <label>จัดกำหนดเวลาสำหรับงานนี้เรียบร้อยแล้ว:</label>
+        <name>TWITTER_TASK_SCHEDULED</name>
+    </customLabels>
+    <customLabels>
+        <label>ส่งข้อความส่วนตัวถึง</label>
+        <name>TWITTER_TASK_SUBJECT_DM</name>
+    </customLabels>
+    <customLabels>
+        <label>ส่ง @การตอบกลับข้อความทวีตถึง</label>
+        <name>TWITTER_TASK_SUBJECT_REPLY</name>
+    </customLabels>
+    <customLabels>
+        <label>ยกเลิกการจัดกำหนดเวลาสำหรับงานนี้เรียบร้อยแล้ว:</label>
+        <name>TWITTER_TASK_UNSCHEDULED</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการปรับปรุงบนงาน</label>
+        <name>TWITTER_TASK_UPDATE</name>
+    </customLabels>
+    <customLabels>
+        <label>Twitter</label>
+        <name>TWITTER_TEXT</name>
+    </customLabels>
+    <customLabels>
+        <label>ข้อความนี้จะถูกส่งออกเป็นการตอบกลับแบบสาธารณะหรือข้อความส่วนตัว คุณสามารถแก้ไขข้อความได้ก่อนที่จะส่งออก</label>
+        <name>TWITTER_TEXT_SENT</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการสร้างบนบัญชีผู้ใช้ Twitter</label>
+        <name>TWITTER_TWITACCOUNT_CREATE</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการลบบนบัญชีผู้ใช้ Twitter</label>
+        <name>TWITTER_TWITACCOUNT_DELETE</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการปรับปรุงบนบัญชีผู้ใช้ Twitter</label>
+        <name>TWITTER_TWITACCOUNT_UPDATE</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการสร้างบนการค้นหาใน Twitter</label>
+        <name>TWITTER_TWITSEARCH_CREATE</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการลบบนการค้นหาใน Twitter</label>
+        <name>TWITTER_TWITSEARCH_DELETE</name>
+    </customLabels>
+    <customLabels>
+        <label>ต้องมีสิทธิ์ในการปรับปรุงบนการค้นหาใน Twitter</label>
+        <name>TWITTER_TWITSEARCH_UPDATE</name>
+    </customLabels>
+    <customLabels>
+        <label>ข้อความส่วนตัว</label>
+        <name>TWITTER_TYPE_DIRECT_MESSAGE</name>
+    </customLabels>
+    <customLabels>
+        <label>บัญชีผู้ใช้ที่ลงทะเบียนแล้ว</label>
+        <name>TWITTER_TYPE_REGISTERED_ACCOUNT</name>
+    </customLabels>
+    <customLabels>
+        <label>@การตอบกลับ</label>
+        <name>TWITTER_TYPE_REPLIES</name>
+    </customLabels>
+    <customLabels>
+        <label>ค้นหา</label>
+        <name>TWITTER_TYPE_SEARCH</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่รู้จัก</label>
+        <name>TWITTER_UNKNOWN</name>
+    </customLabels>
+    <customLabels>
+        <label>ชื่อผู้ใช้ Twitter</label>
+        <name>TWITTER_USERNAME</name>
+    </customLabels>
+    <customLabels>
+        <label>คุณไม่สามารถติดตามผู้ใช้นี้ได้ เนื่องจากผู้ใช้นี้ไม่ได้เชื่อมโยงกับผู้ติดต่อหรือลีดใด ๆ เลย</label>
+        <name>TWITTER_USERNAME_NOT_CONTACTLEAD</name>
+    </customLabels>
+    <customLabels>
+        <label>บัญชีผู้ใช้ Twitter ต้องมีชื่อผู้ใช้ Bit.ly และคีย์ Api ที่ถูกต้อง</label>
+        <name>TWITTER_VALID_BITLY</name>
+    </customLabels>
+    <customLabels>
+        <label>โปรดป้อน URL ที่ถูกต้อง</label>
+        <name>TWITTER_VALID_URL</name>
+    </customLabels>
+    <customLabels>
+        <label>คำเตือน</label>
+        <name>TWITTER_WARNING</name>
+    </customLabels>
+    <customLabels>
+        <label>มีอะไรเกิดขึ้น?</label>
+        <name>TWITTER_WHAT_IS_HAPPENING</name>
+    </customLabels>
+    <customLabels>
+        <label>ที่มี</label>
+        <name>TWITTER_WITH_A</name>
+    </customLabels>
+    <customLabels>
+        <label>ที่มีชื่อผู้ใช้ Twitter</label>
+        <name>TWITTER_WITH_USERNAME</name>
+    </customLabels>
+    <customLabels>
+        <label>ตำแหน่ง</label>
+        <name>Title</name>
+    </customLabels>
+    <customLabels>
+        <label>ผลลัพธ์ชื่อสำหรับ:</label>
+        <name>Title_Search_Username</name>
+    </customLabels>
+    <customLabels>
+        <label>ผลลัพธ์ทั้งหมด</label>
+        <name>Total_Results</name>
+    </customLabels>
+    <customLabels>
+        <label>20</label>
+        <name>Twitter_Account_PageSize</name>
+    </customLabels>
+    <customLabels>
+        <label>บัญชีผู้ใช้ Twitter</label>
+        <name>Twitter_Accounts</name>
+    </customLabels>
+    <customLabels>
+        <label>การติดตามบัญชีผู้ใช้ Twitter</label>
+        <name>Twitter_Accounts_following</name>
+    </customLabels>
+    <customLabels>
+        <label>ข้อความของคุณจะถูกแนบกับเคสนี้เป็นความคิดเห็นของเคส</label>
+        <name>Twitter_Case_Solution</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Twitter_Error_Returned --></label>
+        <name>Twitter_Error_Returned</name>
+    </customLabels>
+    <customLabels>
+        <label>รหัสประจำ Twitter</label>
+        <name>Twitter_ID</name>
+    </customLabels>
+    <customLabels>
+        <label>ชนิด</label>
+        <name>Type</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่สามารถเชื่อมต่อกับ Facebook ได้ ต้องใช้ข้อมูลประจำตัวในการรับรองความถูกต้อง หากคุณได้ทำการเปลี่ยนแปลงผู้ใช้ Facebook หรือแฟนเพจของ Facebook ของคุณ โปรดให้วิทธิ์อนุญาตใหม่ใน Salesforce</label>
+        <name>UNABLE_CONNECT_FACEBOOK</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่สามารถโหลดแฟ้มรายการบันทึกที่ร้องขอได้</label>
+        <name>UNABLE_TO_LOAD_LOG_FILE</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่สามารถเรียกข้อมูลของความคิดเห็นทั้งหมดสำหรับโพสต์นี้ได้</label>
+        <name>UNABLE_TO_RETRIEVE_ALL_COMMENTS</name>
+    </customLabels>
+    <customLabels>
+        <label>ไม่สามารถส่งความคิดเห็นไปยังอ็อบเจ็กต์นี้ได้</label>
+        <name>UNABLE_TO_SEND_COMMENT</name>
+    </customLabels>
+    <customLabels>
+        <label>องค์กรของคุณไม่ได้เปิดใช้งานบัญชีผู้ใช้ประเภทบุคคล</label>
+        <name>UNKNOWN_TWITTER_USERNAMES_ERROR</name>
+    </customLabels>
+    <customLabels>
+        <label>หากต้องการยกเลิกการติดตามผู้ใช้ ให้ยกเลิกการเลือกบัญชีผู้ใช้ที่ต้องการ แล้วคลิก &quot;บันทึกการเปลี่ยนแปลง&quot;</label>
+        <name>Unfollow_user_deselect</name>
+    </customLabels>
+    <customLabels>
+        <label>เลิกชอบ</label>
+        <name>Unlike</name>
+    </customLabels>
+    <customLabels>
+        <label>ชื่อผู้ใช้</label>
+        <name>Username</name>
+    </customLabels>
+    <customLabels>
+        <label>ชื่อผู้ใช้ต้องไม่ซ้ำกัน</label>
+        <name>Username_unique</name>
+    </customLabels>
+    <customLabels>
+        <label>ตรวจสอบความถูกต้องแล้ว</label>
+        <name>Validated</name>
+    </customLabels>
+    <customLabels>
+        <label>ในการใช้งานคุณลักษณะนี้ คุณต้องมีบัญชีผู้ใช้ Twitter ที่สามารถใช้งานได้อย่างน้อยหนึ่งบัญชี ในองค์กร Salesforce.com ของคุณ</label>
+        <name>Validated_Twitter_Account</name>
+    </customLabels>
+    <customLabels>
+        <label>คุณสามารถส่งการตอบกลับไปยังผู้ติดต่อ ลีด หรือบัญชีผู้ใช้ประเภทบุคคลของ Twitter ได้เท่านั้น</label>
+        <name>YOU_CAN_ONLY_REPLY_TO_CNCT_LEAD_PA</name>
+    </customLabels>
+    <customLabels>
+        <label>คุณและผู้อื่นอีก 1 คนชอบสิ่งนี้</label>
+        <name>You_And_1_Like_This</name>
+    </customLabels>
+    <customLabels>
+        <label>คุณและผู้อื่นอีก {0} คนชอบสิ่งนี้</label>
+        <name>You_And_Others_Like_This</name>
+    </customLabels>
+    <customLabels>
+        <label>คุณชอบสิ่งนี้</label>
+        <name>You_Like_This</name>
+    </customLabels>
+    <customLabels>
+        <label>ชั่วโมง</label>
+        <name>hours</name>
+    </customLabels>
+    <customLabels>
+        <label>นาที</label>
+        <name>minutes</name>
+    </customLabels>
+    <customLabels>
+        <label>สมาชิกใหม่</label>
+        <name>new_Members</name>
+    </customLabels>
+    <customLabels>
+        <label>จาก</label>
+        <name>of_10</name>
+    </customLabels>
+    <customLabels>
+        <label>บน Twitter</label>
+        <name>on_Twitter</name>
+    </customLabels>
+    <customLabels>
+        <label>ที่เหลืออยู่</label>
+        <name>remaining</name>
+    </customLabels>
+    <customPageWebLinks>
+        <label>รับข้อความทวีตเพิ่มเติม</label>
+        <name>Get_More_Tweets</name>
+    </customPageWebLinks>
+    <customTabs>
+        <label>ผู้เผยแพร่ในเครือข่ายสังคม</label>
+        <name>Salesforce_for_Twitter</name>
+    </customTabs>
+    <customTabs>
+        <label>Social Agent</label>
+        <name>Social_Agent</name>
+    </customTabs>
+    <customTabs>
+        <label>การตั้งค่าเครือข่ายสังคม</label>
+        <name>Social_Setup</name>
+    </customTabs>
+    <reportTypes>
+        <description>ผู้ติดต่อที่มีชื่อผู้ใช้ Twitter และการสนทนาใน Twitter</description>
+        <label>ผู้ติดต่อที่มีชื่อผู้ใช้ Twitter</label>
+        <name>Contacts_with_Twitter_username</name>
+        <sections>
+            <label>ผู้ติดต่อ</label>
+            <name>Contacts</name>
+        </sections>
+        <sections>
+            <label>การสนทนาใน Twitter</label>
+            <name>Twitter Conversations</name>
+        </sections>
+    </reportTypes>
+</Translations>
