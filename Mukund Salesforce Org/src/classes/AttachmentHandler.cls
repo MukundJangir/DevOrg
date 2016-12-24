@@ -93,7 +93,8 @@ public with sharing class AttachmentHandler extends TriggerHandler{
          //     if(!fileType.contains('.pdf')){
          //         a.addError('Only Pdf file attachment is allowed');
          //     }
-         //   }  
+         //   } 
+         //Adding some more comments 
     }
     
  /*   private boolean isAttachmentRestricted(){
