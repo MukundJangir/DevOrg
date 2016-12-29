@@ -1,0 +1,12 @@
+<apex:page standardController="Position__c" recordSetVar="positions" sidebar="false" showHeader="false">
+    <apex:pageBlock >
+        <h1>Welcome to the Universal Containers Careers Home Page!</h1>
+        <p>Universal Containers is an industry leader, and to stay ahead of the pack, we need to grow! We are currently seeking bright and talented professionals to join our winning team.  Browse the current openings below, and send in your resume via email to apply today.</p>
+        <br />
+        <apex:pageBlockTable value="{!positions}" var="position">
+            <apex:column value="{!position.name}" rendered="{!IF(position.Status__c == 'Open - Approved', true, false)}"/>
+            <apex:column value="{!position.Location__c}" rendered="{!IF(position.Status__c == 'Open - Approved', true, false)}"/>
+            <apex:column value="{!position.Job_Description__c}" rendered="{!IF(position.Status__c == 'Open - Approved', true, false)}"/>
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+</apex:page>

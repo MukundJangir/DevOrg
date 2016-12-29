@@ -1,0 +1,32 @@
+<apex:page standardController="Account" showHeader="false">
+<apex:stylesheet value=" {! URLFOR($Resource.Style, 'styles.css')} "/>
+<apex:pageBlock title="Custom Output">
+    <apex:pageBlockSection title="Custom Section Title">
+        <apex:outputField value="{!account.Name}"/>
+        <apex:outputField value="{!account.Owner.Name}"/> </apex:pageBlockSection>
+</apex:pageBlock>
+   
+   <apex:pageBlock title="My Account Contacts">
+    <apex:pageBlockTable value="{! account.contacts}" var="item">
+        <apex:column value="{! item.name}"/> 
+        <apex:column value="{! item.Email}"/> 
+    </apex:pageBlockTable> 
+   </apex:pageBlock> 
+   
+   <apex:dataTable value="{!account.contacts}" var="item">
+    <apex:column value="{!item.name}"/> 
+    <apex:column value="{!item.phone}"/>
+</apex:dataTable>
+
+<apex:dataList value="{!account.contacts}" var="item">
+    <apex:outputText value="{!item.name}"/>
+</apex:dataList>
+
+
+<ul>
+    <apex:repeat value="{!account.contacts}" var="item">
+        <li><apex:outputText value="{!item.name}"/></li>
+    </apex:repeat>
+</ul>
+   
+</apex:page>

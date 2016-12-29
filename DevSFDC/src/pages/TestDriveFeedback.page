@@ -1,0 +1,29 @@
+<apex:page controller="TestDriveFeedbackController" showHeader="false">
+
+<apex:form >
+<apex:pageBlock >
+<apex:pageMessages />
+
+            <apex:pageBlockSection columns="1" title="Test Drive Information" collapsible="false">
+               <apex:pageBlockTable value="{!testDriverWrapperList}" var="testDriveList" width="100%">
+               
+               <apex:column headerValue=""> 
+               <apex:inputCheckbox style="font-weight:bold" value="{!testDriveList.isChecked}" />
+               </apex:column>
+               <apex:column value="{!testDriveList.testDrive.Vehicle__r.Maker__c} {!testDriveList.testDrive.Vehicle__r.Model__c} {!testDriveList.testDrive.Vehicle__r.Variant__c}" headerValue="Vehicle"/>
+                
+               <apex:column value="{!testDriveList.testDrive.Test_Drive_Date__c}" headerValue="Test Drive Date"/> 
+               <apex:column value="{!testDriveList.testDrive.Dealer__c}" headerValue="Dealer Name"/>                   
+                                  
+               </apex:pageBlockTable>  
+               </apex:pageBlockSection>   
+
+           <apex:pageBlockSection columns="1" title="Feedback Information" collapsible="false">
+           <apex:inputField label="Rating" value="{!feedback.Rating__c}" required="true"/> 
+           <apex:inputField style="width: 300px; height: 100px;" label="Feedback" value="{!feedback.Feedback__c}"/>
+          <p style="color:red;">Note: Rating 5 for best and 1 for worst</p>
+             </apex:pageBlockSection>
+             <apex:commandButton value="Submit Detail" action="{!submitDetail}" />
+       </apex:pageBlock>
+</apex:form>
+</apex:page>

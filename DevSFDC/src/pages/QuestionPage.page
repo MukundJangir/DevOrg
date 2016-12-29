@@ -1,0 +1,38 @@
+<apex:page standardcontroller="Question__c" extensions="QuestionController" showHeader="false">
+    
+    <script type="text/javascript">
+        function answerType1(selAns){
+        alert("HI");
+            alert(document.getElementById(selAns).value);
+            var selectedValue = document.getElementById(selAns).value;
+            alert(selectedValue );
+            document.getElementById('answerTypeId').value = selectedValue;
+            alert(document.getElementById('answerTypeId').value);
+            answerType(selectedValue );
+            
+            
+        }
+    
+    </script>
+    <apex:form >
+        <apex:pageBlock >
+            <apex:pageBlockSection columns="1">
+                <apex:inputField id="ques" label="Question" value="{!question.Question__c}" />
+                <apex:inputField label="Type of Form" value="{!question.Type_of_Form__c}" />
+                <apex:inputField id="selectedAnswer" label="Type of Answer" value="{!question.Answer_Type__c}" onchange="answerType1('{!$Component.selectedAnswer}')" />
+               
+            
+            </apex:pageBlockSection>
+        
+        
+        </apex:pageBlock>
+        
+        <apex:actionFunction name="answerType" action="{!answerTypeMethod}">
+          <apex:param name="answerTypeNm" value=""/>
+        </apex:actionFunction>
+        
+        <input type="hidden" name="answerTypeNm" id="answerTypeId" value=""/>
+        
+    </apex:form>
+    
+</apex:page>

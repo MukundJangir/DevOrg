@@ -1,0 +1,41 @@
+<!-- <apex:page standardController="Employee_Leave__c" extensions="EmployeeLeaveController"  showHeader="false" sidebar="false">
+<apex:form >
+    <apex:pageMessages ></apex:pageMessages>
+    <apex:pageBlock title="Your entered leave detail">
+    <apex:pageBlockSection title="Your entered leave detail" columns="1">
+    <apex:outputField value="{!Employee_Leave__c.Emp_Name__c}" />
+    
+    <apex:outputField value="{!Employee_Leave__c.Leave_Start_Date__c}" />
+    <apex:outputField value="{!Employee_Leave__c.Leave_End_Date__c}" />
+    <apex:outputField value="{!Employee_Leave__c.Reason_For_Leave__c}" />
+   </apex:pageBlockSection>         
+   </apex:pageBlock>
+    </apex:form>         
+<h1>Your manager will review the leave request and you will get notification accordingly</h1>
+
+
+</apex:page>-->
+
+<apex:page showHeader="false" sidebar="false" standardStylesheets="false">
+<apex:stylesheet value="{!$Resource.BluePrint}"/>
+<div id="header">
+            <apex:insert name="header"> </apex:insert>                   
+            <div style = "float:right">
+                    <apex:insert name="login">
+                                  <c:SiteLogin />                                   
+                    </apex:insert>
+            </div>
+           
+               
+         </div>
+
+<div class="container">
+    <div class="span-24 last">
+        <h1>Congratulations</h1>
+    </div>
+    <div class="span-24 last">
+        This is your new <span class="ie-test">Page</span>
+    </div>
+</div>
+
+</apex:page>

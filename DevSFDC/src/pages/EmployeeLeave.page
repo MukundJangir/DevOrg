@@ -1,0 +1,82 @@
+<apex:page standardController="Employee_Leave__c" extensions="EmployeeLeaveController"  showHeader="false" sidebar="false">
+
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+   <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+
+
+ <script type="text/javascript">
+ var email = '';
+ var empName = '';
+ 
+ var json = '{"EmployeeData":[{"EmpName":"Balmukund Jangir","EmpEmailId":"balmukund.jangir@capgemini.com","EmpId":28425},{"EmpName":"Anil Kumar","EmpEmailId":"anil.kumar@capgemini.com","EmpId":12345},{"EmpName":"Neeraj Kumar","EmpEmailId":"balmukund.jangir@capgemini.com","EmpId":11121},{"EmpName":"Swapna Mitra","EmpEmailId":"swapna.mitra@capgemini.com","EmpId":42234}]}';
+ 
+ 
+ function getMail(){
+ 
+ 
+ var id = document.getElementById("SelectOption").value;
+ //alert(id);
+// if(id == '--Select Employee--'){
+// 	alert("Please Select one Employee");
+// 	return false;
+// }else{
+ 	//alert(id);
+ 	var obj = jQuery.parseJSON(json);
+   for(i=0;i<obj.EmployeeData.length;i++){
+    	if(id == obj.EmployeeData[i].EmpId){
+    	document.getElementById("email").value = obj.EmployeeData[i].EmpEmailId;
+    	
+    	document.getElementById("EmpName").value = obj.EmployeeData[i].EmpName;    	
+    	}
+    } 
+ // SaveButton();
+//  }
+ } 
+ 
+  $(document).ready(function(){
+   $(window).load(function(){
+    var obj = jQuery.parseJSON(json);
+    var html = '';
+     
+    for(i=0;i<obj.EmployeeData.length;i++){
+     html +=  '<option value="'+obj.EmployeeData[i].EmpId+'">'+obj.EmployeeData[i].EmpName+'</option>';
+	 
+    }
+    $('#SelectOption').append(html);
+   
+   });
+  });
+ </script>
+</head>
+
+    <apex:form >
+    <apex:pageMessages ></apex:pageMessages>
+    <apex:pageBlock title="Enter Leave Details">
+    
+    
+        <apex:pageBlockSection title="Enter Leave Details" columns="1">
+        
+        
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Select Employee</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <select id="SelectOption" name="SelectOption" onchange="javascript:getMail()">
+  <option value="">--Select Employee--</option>
+</select>
+           
+            <apex:inputField value="{!Employee_Leave__c.Leave_Start_Date__c}" />
+            <apex:inputField value="{!Employee_Leave__c.Leave_End_Date__c}" />
+            <apex:inputField value="{!Employee_Leave__c.Reason_For_Leave__c}" />
+        </apex:pageBlockSection>
+        <apex:pageBlockButtons >
+                <apex:commandButton value="Save" action="{!saveValue}" onclick="javascript:getMail()"/>
+                 
+            </apex:pageBlockButtons>
+    </apex:pageBlock>
+    <input type="hidden" name="email" id="email"/>
+    <input type="hidden" name="EmpName" id="EmpName"/>
+    
+    </apex:form>
+</apex:page>

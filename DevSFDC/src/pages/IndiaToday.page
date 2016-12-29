@@ -1,0 +1,341 @@
+<apex:page showheader="false" StandardController="Personal_Info__c">
+<head>
+
+<apex:includeScript value="{!URLFOR($Resource.test, 'test/India_Today_Subscription_files/mojozoom.js')}"  />
+
+<apex:stylesheet value="{!URLFOR($Resource.test, 'test/India_Today_Subscription_files/stylesheet.css')}"  />
+<apex:stylesheet value="{!URLFOR($Resource.test, 'test/India_Today_Subscription_files/mojozoom.css')}"  />
+
+    <script>
+function show(id)
+{
+
+document.getElementById(id).style.display = "block";
+}
+function hide(id)
+{
+document.getElementById(id).style.display = "none";
+}
+</script>
+
+    
+    
+<script language="javascript">
+
+function isEmail(email){
+      if (document.ith.Email.value.indexOf("@") != "-1" && document.ith.Email.value.indexOf(".") != "-1" )
+           return true;
+      else return false;
+    }
+function isEmailG(email){
+      if (document.ith.EmailG.value.indexOf("@") != "-1" && document.ith.EmailG.value.indexOf(".") != "-1" )
+           return true;
+      else return false;
+    }
+
+function trim(field)
+{
+
+    while(field.charAt(field.length-1)==" "){
+        field=field.substring(0,field.length-1);
+    }
+
+    while(field.charAt(0)==" "){
+        field=field.substring(1,field.length);
+    }
+
+    return field;
+}
+
+function validate()
+{
+
+document.ith.Name.value=trim(document.ith.Name.value);
+document.ith.Address1.value=trim(document.ith.Address1.value);
+document.ith.City.value=trim(document.ith.City.value);
+document.ith.State.value=trim(document.ith.State.value);
+document.ith.Zip.value=trim(document.ith.Zip.value);
+document.ith.Email.value=trim(document.ith.Email.value);
+document.ith.Telephone.value=trim(document.ith.Telephone.value);
+document.ith.Fax.value=trim(document.ith.Fax.value);
+
+
+    if(document.ith.Term[0].checked==false && document.ith.Term[1].checked==false && document.ith.Term[2].checked==false)
+    {
+        alert("Please Select Your Subscription Plan");
+        document.ith.Term[0].focus();
+        return false
+    }
+
+    if(document.ith.Term[1].checked==true )
+    {
+        if(document.ith.tshirtSize[0].checked==false && document.ith.tshirtSize[1].checked==false && document.ith.tshirtSize[2].checked==false)
+        {
+        alert("Please Select Your T-Shirt Size");
+        document.ith.tshirtSize[0].focus();
+        return false
+        }
+    }
+
+    
+    else
+    if(document.ith.Name.value=="")
+    {
+        alert("Please Enter Your Name");
+        document.ith.Name.focus();
+        return false
+    }
+    else
+    if(document.ith.Address1.value=="")
+    {
+        alert("Please Enter Your Address");
+        document.ith.Address1.focus();
+        return false
+    }
+    else
+    if(document.ith.City.value=="")
+    {
+        alert("Please Enter Your City");
+        document.ith.City.focus();
+        return false
+    }
+    else
+    if(document.ith.State.value=="")
+    {
+        alert("Please Enter Your State");
+        document.ith.State.focus();
+        return false
+    }
+    else
+    if(document.ith.Zip.value=="")
+    {
+        alert("Please Enter Your Pin");
+        document.ith.Zip.focus();
+        return false
+    }
+    if(document.ith.Zip.value.length !=6)
+    {
+        alert("Please Enter Your Pin Correctly");
+        document.ith.Zip.focus();
+        return false
+    }
+    if(isNaN(document.ith.Zip.value))
+    {
+        alert("Please Enter Your Pin Correctly");
+        document.ith.Zip.focus();
+        return false
+    }
+    else
+    if(document.ith.Email.value=="")
+    {
+        alert("Please Enter Your E-mail Address");
+        document.ith.Email.focus();
+        return false
+    }
+    else
+    if (isEmail(ith.Email.value) == false)
+    {
+        alert("Please Enter Your E-mail Address Correctly  ")
+        document.ith.Email.focus();
+        return false
+    }
+    else
+    if (document.ith.Telephone.value == false)
+    {
+        alert("Please Enter Your Telephone Correctly  ")
+        document.ith.Telephone.focus();
+        return false
+    }
+    
+    if(document.ith.PaymentMode.value=="")
+    {
+        alert("Please Select Mode of Payment");
+        document.ith.PaymentMode.focus();
+        return false
+    }
+
+}
+</script>
+  </head>
+
+   <table width="1003" border="0" cellpadding="0" cellspacing="0" align="CENTER">
+          <tbody><tr>
+            <td bgcolor="#220406" height="30px;">
+        <!-- Start of GlobalTopNew Chunk -->
+        <div class="group-link"><b><a href="http://indiatodaygroup.com/" target="_new">INDIA
+TODAY GROUP</a>:</b> <a href="http://intoday.in/" target="_new">InToday</a>
+| <a href="http://indiatoday.intoday.in/" target="_new">India Today</a>
+| <a href="http://aajtak.intoday.in/" target="_new">Aaj Tak</a> |
+<a href="http://headlinestoday.in/" target="_new">Headlines Today</a>
+| <a href="http://www.businesstoday.in/" target="_new">Business
+Today</a>  | <a href="http://menshealth.intoday.in/" target="_new">Men's
+Health</a> | <a href="http://www.wonderwoman.in/" target="_new">Wonder
+Woman</a> | <a href="http://cosmopolitan.in/" target="_new">Cosmopolitan</a>
+| <a href="http://oyefm.in/" target="_new">Oye! 104.8FM</a>
+</div>
+        <!-- End of GlobalTopNew Chunk -->
+
+          </td>
+          </tr>
+  </tbody></table>
+
+    <table width="1003" border="0" cellpadding="0" cellspacing="0" align="CENTER" bgcolor="#ffffff">
+      <tbody><tr>
+        <td valign="TOP" width="400" bgcolor="#ffffff">
+        <apex:image url="{!URLFOR($Resource.test,
+                  'test/India_Today_Subscription_files/india-today.gif')}" width="400" height="158"/>
+        
+        <br/> 
+        <apex:image url="{!URLFOR($Resource.test, 'test/India_Today_Subscription_files/hindi-cover.jpg')}" width="400" height="534"/>
+                  </td> <td valign="TOP" bgcolor="#ffffff"><div align="RIGHT">
+                  
+                  <apex:outputLink value="http://www.indiatodaygroup.com/" id="theLink"><apex:image url="{!URLFOR($Resource.test, 'test/India_Today_Subscription_files/indiatodaygroup.gif')}" width="66" height="51" /></apex:outputLink>
+                  <!--<a href="http://www.indiatodaygroup.com/" target="_new"><apex:image url="{!URLFOR($Resource.test, 'test/India_Today_Subscription_files/indiatodaygroup.gif')} width="66" height="51" /></a>-->
+                  
+                  </div>
+            <apex:form >
+             
+<table border="1" cellpadding="0" cellspacing="0" align="CENTER" style="border-collapse:collapse;" bordercolor="#B6B6B6" width="98%">
+                <tbody>
+                <apex:pageBlock >
+                
+                <tr>
+                  <td bgcolor="#F0F0F0"><div class="enquiry-head">INDIA TODAY HINDI SUBSCRIPTION PLAN</div></td>
+                </tr>
+                <tr>
+                  <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
+                      <tbody><tr>
+                        <td><div style="padding:6px 0 6px 0px;">
+                            <table width="99%" border="1" cellpadding="2" cellspacing="0" align="CENTER" style="border-collapse:collapse;" bordercolor="#E9E9E9">
+                              <tbody><tr>
+                                <td bgcolor="#FFA200" width="10%"><div class="enquiry-offer-text">Choose Plan </div></td>
+                                <td bgcolor="#FFA200" width="9%"><div class="enquiry-offer-text">Term (Year) </div></td>
+                                <td bgcolor="#FFA200" width="16%"><div class="enquiry-offer-text">No of issues </div></td>
+                                <td bgcolor="#FFA200" width="16%"><div class="enquiry-offer-text">Cover price <apex:image url="{!URLFOR($Resource.test, '/test/India_Today_Subscription_files/r1.gif')}"/></div></td>
+                                <td width="29%" bgcolor="#FFA200"><div class="enquiry-offer-text">Discounted Price (You Pay)</div></td>
+                                <td width="20%" bgcolor="#FFA200"><div class="enquiry-offer-text">%age Savings </div></td>
+                                <!--<TD BGCOLOR="#FFA200"><DIV CLASS="enquiry-offer-text">Gift </DIV></TD>-->
+                                
+                              </tr>
+                              <tr>
+                                <td><input name="Term" type="RADIO" autocomplete="off" value="3year" checked=""/></td>
+                                <td><div class="enquiry-offer-text1">3</div></td>
+                                <td><div class="enquiry-offer-text1">156</div></td>
+                                <td><div class="enquiry-offer-text1">3120</div></td>
+                                <td><div class="enquiry-offer-text1"> 2340</div></td>
+                                <td><div class="enquiry-offer-text1">25</div></td>
+                                <!--<TD><DIV CLASS="enquiry-offer-text1">No Gift</DIV></TD>-->
+                                
+                              </tr>
+                              <tr>
+                                <td><input type="RADIO" name="Term" autocomplete="off" value="2year"/></td>
+                                <td><div class="enquiry-offer-text1">2</div></td>
+                                <td><div class="enquiry-offer-text1">104</div></td>
+                                <td><div class="enquiry-offer-text1">2080</div></td>
+                                <td><div class="enquiry-offer-text1"> 1650</div></td>
+                                <td><div class="enquiry-offer-text1">20</div></td>
+                                <!--<TD><DIV CLASS="enquiry-offer-text1">No Gift</DIV></TD>-->
+                                    
+                              </tr>
+                              <tr>
+                                <td><input type="RADIO" name="Term" autocomplete="off" value="1year"/></td>
+                                <td><div class="enquiry-offer-text1">1</div></td>
+                                <td><div class="enquiry-offer-text1">52</div></td>
+                                <td><div class="enquiry-offer-text1">1040</div></td>
+                                <td><div class="enquiry-offer-text1">875</div></td>
+                                <td><div class="enquiry-offer-text1">16 </div></td>
+                                 <!--<TD><DIV CLASS="enquiry-offer-text1">No Gift</DIV></TD>-->
+                                    
+                              </tr>
+                            </tbody></table>
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td height="60"><div class="head11" align="CENTER">To Renew your subscription<br>
+                                <a href="http://www.wecare24x7.in/Login.aspx?PageUrl=Subscriptionsecond.aspx">Click here</a></br></div></td>
+                      </tr>
+                  </tbody></table></td>
+                </tr>
+                                
+                
+                <apex:pageBlockSection columns="2" Collapsible="FALSE" >
+
+                      <div></div>  
+                      <div class="enquiry-offer-head1">( <font color="#FF0000">*</font> indicates mandatory field. )</div>
+                                
+                      <apex:inputField style="FONT-WEIGHT: normal; FONT-SIZE: 10px; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-VARIANT: normal"  value="{!Personal_Info__c.Name__c}"/>
+                      
+                      <apex:pageblockSectionItem >
+                          <apex:inputCheckbox value="{!Personal_Info__c.Male_sex__c}">Male</apex:inputCheckbox>
+                          <apex:inputCheckbox value="{!Personal_Info__c.Female_sex__c}">Female </apex:inputCheckbox>
+                      </apex:pageblockSectionItem>              
+                             
+                      <apex:inputField style="FONT-WEIGHT: normal; FONT-SIZE: 10px; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-VARIANT: normal" value="{!Personal_Info__c.Address__c}" />
+                            
+                       
+                     <apex:inputField style="FONT-WEIGHT: normal; FONT-SIZE: 10px; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-VARIANT: normal" value="{!Personal_Info__c.City__c}" />
+                    
+                         
+                     <apex:inputField style="FONT-WEIGHT: normal; FONT-SIZE: 10px; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-VARIANT: normal" value="{!Personal_Info__c.State__c}" />
+                        
+                        
+                     <apex:inputField style="FONT-WEIGHT: normal; FONT-SIZE: 10px; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-VARIANT: normal" value="{!Personal_Info__c.Country__c}" />
+                      
+                        
+                     <apex:inputField style="FONT-WEIGHT: normal; FONT-SIZE: 10px; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-VARIANT: normal" value="{!Personal_Info__c.Pin_Code__c}" />
+                
+                     <apex:inputField style="FONT-WEIGHT: normal; FONT-SIZE: 10px; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-VARIANT: normal" value="{!Personal_Info__c.Email__c}" />
+                    
+        
+                    <apex:inputField style="FONT-WEIGHT: normal; FONT-SIZE: 10px; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-VARIANT: normal" value="{!Personal_Info__c.Telephone__c}" />
+              
+                    <apex:inputField style="FONT-WEIGHT: normal; FONT-SIZE: 10px; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-VARIANT: normal" value="{!Personal_Info__c.Fax__c}" />
+                    
+                      
+        
+                </apex:pageBlockSection>
+                
+                <apex:pageBlockSection title="MODE OF PAYMENT">
+                <!--<tr>
+                  <td bgcolor="#F0F0F0"><div class="enquiry-head">MODE OF PAYMENT </div></td>
+                </tr>-->
+                <tr>
+                  <td><div style="padding:6px 0 6px 0px;">
+                      <table width="99%" border="0" cellpadding="2" cellspacing="0" align="CENTER" bordercolor="#666666" style="border-collapse:collapse;">
+                        <tbody><tr>
+                          <td width="25%"><div class="enquiry-text-info">Mode of Payment : </div></td>
+                          <td colspan="2"><div class="enquiry-text1" style="padding:2px 0 2px 10px;">
+                              <!--<select style="FONT-WEIGHT: normal; FONT-SIZE: 10px; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-VARIANT: normal" name="PaymentMode">
+                                <option selected="SELECTED" value="">Select Here</option>
+                                <option value="ONLINE_CC">Online Payment</option>
+                                <option value="OFFLINE_DD">Demand Draft</option>
+                                <option value="OFFLINE_CHQ">Cheque</option>
+                              </select> -->
+                              
+                              <apex:inputField value="{!Personal_Info__c.PaymentMode__c}" style="FONT-WEIGHT: normal; FONT-SIZE: 10px; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-VARIANT: normal"/>
+                          </div></td>
+                        </tr>
+                        <tr>
+                          <td width="25%"></td>
+                          <td colspan="2" height="80"><div align="LEFT" style="padding-left:12px;">
+                          
+                          <apex:commandButton action="{!save}" image="{!URLFOR($Resource.test,'test/India_Today_Subscription_files/proceed.jpg')}"> 
+                              
+                          </apex:commandButton>
+                              
+                              <!--<apex:image url="{!URLFOR($Resource.test,'test/India_Today_Subscription_files/proceed.jpg')}">
+                              
+                                  <apex:actionSupport event="onclick" action="{!save}" />
+                              </apex:image> -->
+                              
+                          </div></td>
+                        </tr>
+                      </tbody></table>
+                  </div></td>
+                </tr>
+                <tr>
+                  <td height="40"><div class="head11" align="CENTER">To Subscribe to English, Tamil, Malayalam, Telugu and International editons, <a href="http://subscriptions.digitaltoday.in/subscriptions/itoday/regionlInt.html" target="_blank">Click Here</a></div></td>
+                </tr>
+                </apex:pageBlockSection>
+                </apex:pageBlock>
+              </tbody></table></apex:form> </td></tr></tbody></table></apex:page>

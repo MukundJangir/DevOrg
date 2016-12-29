@@ -1,0 +1,15 @@
+<apex:page standardController="Employee_Leave__c" extensions="EmpLeaveExtController" sidebar="false" showHeader="false" showChat="false" >
+    
+    
+    <apex:form >
+        <apex:outputpanel id="counter">
+
+        <apex:commandButton value="Calculate" />
+            <apex:actionSupport event="onclick"
+				action="{!LeaveDays}"
+			rerender="counter"/>
+        <apex:outputText value="{!calculatedValue}"/>
+            </apex:outputpanel>
+
+    </apex:form>
+</apex:page>

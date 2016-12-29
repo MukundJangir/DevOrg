@@ -1,0 +1,14 @@
+<apex:page standardController="Account" extensions="MyExtension"> 
+    <p>{!title}</p>
+    
+    <apex:form >
+        <apex:inputField value="{!account.name}"/>
+        <apex:commandButton action="{!save}" value="Save!"/>
+    </apex:form>
+    
+    <apex:outputPanel id="ContactDetail">
+    <apex:repeat value="{! contactsInformation}" var="contact">
+        <p>{! contact.FirstName & ' ' & contact.LastName}</p>
+    </apex:repeat>
+</apex:outputPanel>
+</apex:page>

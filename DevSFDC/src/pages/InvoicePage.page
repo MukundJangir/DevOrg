@@ -1,0 +1,50 @@
+<apex:page standardController="Invoice_Calculation__c">
+
+<script>
+
+function calculateInAmount(){
+    var v = document.invoice.credit_amount.value;
+
+    if(Number(v)>5000 || Number(v)<=0 ){
+                document.getElementById('display2').innerHTML='Det indtastet beløb skal være mellem DKK 1 – 5000';
+                document.getElementById('credit_amount').value="";
+                document.getElementById('display3').style.display = "none";
+                return false;
+                }
+                else{
+                document.getElementById('display2').style.display = "none";
+            //    alert(v);
+                var tax = roundVal(Number(v) * 0.1667);
+             //   alert(tax);
+                var credit = Number(v) - tax;
+                var taxD = new String(tax);
+                var creditD = new String(roundVal(credit));
+              //  alert(creditD);
+                document.getElementById('display3').innerHTML='&#160;&#160; Beløb eksl. Moms: '+creditD.replace(".",",")+'&#160;&#160; Moms: '+taxD.replace(".",","); 
+                return true;
+                }
+
+}
+
+ function roundVal(val){
+       var dec = 2;
+      var result = Math.round(val*Math.pow(10,dec))/Math.pow(10,dec);
+      return result;
+  }
+
+</script>
+    <p>Hello</p>
+    
+    
+    <p>You are viewing the {! Invoice_Calculation__c.Amount__c} account.</p>
+    
+    <form name="invoice">
+    
+    Credit Amount: <input type="text" onkeyup="javascript:calculateInAmount()" name="credit_amount" id="credit_amount"/>
+    
+    <div align="left" id="display2" style="color:#FF0000"></div>
+    <div align="left" id="display3" style="color:black;display:inline"></div> 
+    
+    </form>
+   
+</apex:page>
